@@ -122,7 +122,7 @@ export default function Hero() {
               className="grid grid-cols-1 sm:grid-cols-2 gap-4"
               variants={containerVariants}
             >
-              {services.map((service, index) => (
+              {services.map((service) => (
                 <motion.div
                   key={service.name}
                   variants={itemVariants}
