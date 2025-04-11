@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Menu, X, Phone, PhoneCall } from "lucide-react";
+import { Menu, X, PhoneCall } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function Navigation() {
