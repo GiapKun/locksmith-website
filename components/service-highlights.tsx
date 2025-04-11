@@ -70,7 +70,7 @@ export default function ServiceHighlights() {
             {/* Nội dung chính */}
             <div className="md:w-3/5">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 text-center md:text-left">
-                DỊCH VỤ SỬA KHÓA TẠI NHÀ
+                DỊCH VỤ SỬA KHÓA TẬN NƠI
               </h2>
               <p className="text-white text-base sm:text-lg md:text-xl opacity-90 max-w-2xl mb-6 text-center md:text-left">
                 Chuyên nghiệp - Uy tín - Nhanh chóng - Giá cả hợp lý

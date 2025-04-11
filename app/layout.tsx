@@ -9,8 +9,8 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sửa Khóa Thanh Hóa - Thợ sửa khóa tại nhà 24h",
-  description: "Dịch vụ sửa khóa tại nhà 24h tại Thanh Hóa...",
+  title: "Sửa Khóa Thanh Hóa",
+  description: "Chuyên nghiệp - Nhanh chóng - An toàn tuyệt đối",
   icons: {
     // Hoặc Cách 2: Dùng mảng các icon với nhiều kích thước (PNG/SVG)
     icon: [
