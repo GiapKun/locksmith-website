@@ -110,12 +110,28 @@ export default function Hero() {
           {/* Right Column - Services */}
           <motion.div className="px-4 sm:px-6" variants={itemVariants}>
             <motion.h2
-              className="text-3xl md:text-4xl font-bold text-yellow-400 mb-6 text-center lg:text-left"
+              className="text-3xl md:text-4xl font-bold mb-6 text-center lg:text-left relative"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              DỊCH VỤ SỬA KHÓA <span className="text-red-500">24/7</span>
+              <span className="relative inline-block bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent">
+                DỊCH VỤ SỬA KHÓA
+              </span>{" "}
+              <motion.span
+                className="relative inline-block bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent"
+                initial={{ x: -10, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.4 }}
+              >
+                CHUYÊN NGHIỆP
+              </motion.span>
+              <motion.div
+                className="absolute -bottom-2 left-0 h-1 bg-yellow-400"
+                initial={{ width: 0 }}
+                animate={{ width: "40%" }}
+                transition={{ delay: 0.6, duration: 0.5 }}
+              />
             </motion.h2>
 
             <motion.div

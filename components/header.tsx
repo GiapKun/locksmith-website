@@ -48,7 +48,7 @@ export default function Header() {
                 SỬA KHÓA THANH HÓA
               </h1>
               <p className="text-sm text-gray-600 mt-1">
-                Dịch vụ sửa khóa chuyên nghiệp
+                Chuyên nghiệp - Nhanh chóng - An toàn tuyệt đối
               </p>
             </div>
           </Link>
