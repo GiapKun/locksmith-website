@@ -78,7 +78,7 @@ export default function Hero() {
           <motion.div className="px-4 sm:px-6" variants={itemVariants}>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden border-4 border-yellow-500 shadow-2xl">
               <Image
-                src="/images/main_banner.png"
+                src="/images/main_banner.jpg"
                 alt="Thợ sửa khóa chuyên nghiệp"
                 fill
                 className="object-cover"
