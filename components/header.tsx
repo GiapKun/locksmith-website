@@ -24,7 +24,7 @@ export default function Header() {
                 SỬA KHÓA THANH HÓA
               </h1>
               <p className="text-sm text-gray-600 mt-1">
-                Dịch vụ sửa khóa chuyên nghiệp 24/7
+                Dịch vụ sửa khoá chuyên nghiệp
               </p>
             </div>
           </Link>
@@ -48,7 +48,7 @@ export default function Header() {
                 SỬA KHÓA THANH HÓA
               </h1>
               <p className="text-sm text-gray-600 mt-1">
-                Dịch vụ sửa khóa chuyên nghiệp 24/7
+                Dịch vụ sửa khóa chuyên nghiệp
               </p>
             </div>
           </Link>
