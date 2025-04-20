@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "Sửa Khóa Thanh Hóa",
   description: "Chuyên nghiệp - Nhanh chóng - An toàn tuyệt đối",
   icons: {
-    // Hoặc Cách 2: Dùng mảng các icon với nhiều kích thước (PNG/SVG)
     icon: [
       { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
