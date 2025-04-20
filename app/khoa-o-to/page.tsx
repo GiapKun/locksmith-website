@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
 export const metadata = {
   title: "Sửa Khóa Ô Tô | Dịch Vụ Chuyên Nghiệp",
   description:
