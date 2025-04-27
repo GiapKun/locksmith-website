@@ -209,7 +209,9 @@ export default function SuaKhoaKetsatPage() {
                   <li>Lau sạch bàn phím số bằng tăm bông thấm cồn</li>
                   <li>Đợi 5 phút cho khô hoàn toàn trước khi sử dụng</li>
                   <li>Thử nhập lại mã số chính xác</li>
-                  <li>Kiểm tra xem có tiếng "bíp" khi nhấn phím không</li>
+                  <li>
+                    Kiểm tra xem có tiếng &quot;bíp&quot; khi nhấn phím không
+                  </li>
                 </ol>
               </div>
 
