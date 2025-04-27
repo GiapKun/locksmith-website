@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Sửa Khóa Ô Tô | Dịch Vụ Chuyên Nghiệp",
+  title: "Sửa Khóa Ô Tô Thông Minh | Remote | Chíp Từ",
   description:
-    "Hướng dẫn toàn diện về sửa khóa ô tô: nguyên nhân hỏng hóc, cách khắc phục, bảo dưỡng và khi nào nên gọi thợ chuyên nghiệp.",
+    "Chuyên sửa chữa các loại khóa ô tô hiện đại: khóa thông minh, remote, chip từ và nhiều hơn nữa. Dịch vụ chuyên nghiệp, bảo mật.",
 };
 
 export default function SuaKhoaOToPage() {
@@ -19,11 +19,13 @@ export default function SuaKhoaOToPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            Sửa Khóa Ô Tô: Giải Pháp Toàn Diện
+            Sửa Khóa Ô Tô Nhanh Chóng - Tiết Kiệm Thời Gian Cho Bạn
           </h1>
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto font-light">
-            Tất tần tật về sửa chữa khóa ô tô, từ nguyên nhân đến cách khắc phục
+            Gặp rắc rối với khóa ô tô? Đừng để nó làm gián đoạn lịch trình của
+            bạn. Dịch vụ sửa khóa ô tô chuyên nghiệp, có mặt nhanh chóng để giải
+            quyết vấn đề.
           </p>
         </div>
       </section>
@@ -56,13 +58,15 @@ export default function SuaKhoaOToPage() {
             </div>
 
             {/* Table of Contents */}
-            <div className="mb-10 bg-blue-50 p-6 rounded-lg">
-              <h2 className="text-xl font-bold mb-4 text-blue-600">Mục Lục</h2>
+            <div className="mb-10 bg-yellow-50 p-6 rounded-lg">
+              <h2 className="text-xl font-bold mb-4 text-yellow-600">
+                Mục Lục
+              </h2>
               <ul className="space-y-2">
                 <li className="border-b border-gray-200 pb-2">
                   <a
                     href="#common-issues"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-yellow-600 hover:text-yellow-800"
                   >
                     1. Các vấn đề thường gặp với khóa ô tô
                   </a>
@@ -70,7 +74,7 @@ export default function SuaKhoaOToPage() {
                 <li className="border-b border-gray-200 pb-2">
                   <a
                     href="#diy-repair"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-yellow-600 hover:text-yellow-800"
                   >
                     2. Hướng dẫn tự khắc phục các vấn đề đơn giản
                   </a>
@@ -78,7 +82,7 @@ export default function SuaKhoaOToPage() {
                 <li className="border-b border-gray-200 pb-2">
                   <a
                     href="#maintenance"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-yellow-600 hover:text-yellow-800"
                   >
                     3. Cách bảo dưỡng khóa ô tô định kỳ
                   </a>
@@ -86,7 +90,7 @@ export default function SuaKhoaOToPage() {
                 <li className="border-b border-gray-200 pb-2">
                   <a
                     href="#professional-help"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-yellow-600 hover:text-yellow-800"
                   >
                     4. Khi nào nên gọi thợ khóa ô tô chuyên nghiệp
                   </a>
@@ -94,7 +98,7 @@ export default function SuaKhoaOToPage() {
                 <li>
                   <a
                     href="#lock-types"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-yellow-600 hover:text-yellow-800"
                   >
                     5. Các loại khóa ô tô hiện đại và đặc điểm
                   </a>
@@ -104,7 +108,7 @@ export default function SuaKhoaOToPage() {
 
             {/* Section 1: Common Issues */}
             <div id="common-issues" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 1. Các vấn đề thường gặp với khóa ô tô
               </h2>
 
@@ -167,14 +171,14 @@ export default function SuaKhoaOToPage() {
 
             {/* Section 2: DIY Repair */}
             <div id="diy-repair" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 2. Hướng dẫn tự khắc phục các vấn đề đơn giản
               </h2>
 
               <h3 className="text-xl font-semibold mb-3 mt-6 text-gray-900">
                 Xử lý khi chìa khóa không xoay được
               </h3>
-              <div className="bg-blue-50 p-4 rounded-lg mb-4">
+              <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2">
                   <strong>Vật liệu cần chuẩn bị:</strong>
                 </p>
@@ -201,7 +205,7 @@ export default function SuaKhoaOToPage() {
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
                 Xử lý khi remote không hoạt động
               </h3>
-              <div className="bg-blue-50 p-4 rounded-lg mb-4">
+              <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2">
                   <strong>Vật liệu cần chuẩn bị:</strong>
                 </p>
@@ -227,7 +231,7 @@ export default function SuaKhoaOToPage() {
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
                 Đồng bộ lại smartkey với xe
               </h3>
-              <div className="bg-blue-50 p-4 rounded-lg mb-4">
+              <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2">
                   <strong>Lưu ý:</strong> Quy trình đồng bộ khác nhau tùy theo
                   hãng xe và đời xe. Dưới đây là quy trình tổng quát:
@@ -264,7 +268,7 @@ export default function SuaKhoaOToPage() {
 
             {/* Section 3: Maintenance */}
             <div id="maintenance" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 3. Cách bảo dưỡng khóa ô tô định kỳ
               </h2>
 
@@ -278,10 +282,10 @@ export default function SuaKhoaOToPage() {
                 <table className="min-w-full bg-white border border-gray-200">
                   <thead>
                     <tr>
-                      <th className="py-2 px-4 border-b border-gray-200 bg-blue-50 text-left text-gray-700">
+                      <th className="py-2 px-4 border-b border-gray-200 bg-yellow-50 text-left text-gray-700">
                         Tần suất
                       </th>
-                      <th className="py-2 px-4 border-b border-gray-200 bg-blue-50 text-left text-gray-700">
+                      <th className="py-2 px-4 border-b border-gray-200 bg-yellow-50 text-left text-gray-700">
                         Công việc bảo dưỡng
                       </th>
                     </tr>
@@ -355,7 +359,7 @@ export default function SuaKhoaOToPage() {
 
             {/* Section 4: Professional Help */}
             <div id="professional-help" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 4. Khi nào nên gọi thợ khóa ô tô chuyên nghiệp
               </h2>
 
@@ -381,8 +385,8 @@ export default function SuaKhoaOToPage() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-2 text-yellow-700">
                     Vấn đề phức tạp
                   </h3>
                   <ul className="list-disc pl-5 text-gray-700">
@@ -411,9 +415,11 @@ export default function SuaKhoaOToPage() {
                 <li>Có dịch vụ hỗ trợ khẩn cấp 24/7</li>
               </ul>
 
-              <div className="p-4 bg-blue-50 rounded-lg mb-6">
+              <div className="p-4 bg-yellow-50 rounded-lg mb-6">
                 <p className="text-gray-700 mb-2">
-                  <strong className="text-blue-700">Chi phí tham khảo:</strong>{" "}
+                  <strong className="text-yellow-700">
+                    Chi phí tham khảo:
+                  </strong>{" "}
                   Giá dịch vụ sửa khóa ô tô dao động rất lớn tùy theo loại xe và
                   vấn đề cụ thể:
                 </p>
@@ -435,7 +441,7 @@ export default function SuaKhoaOToPage() {
 
             {/* Section 5: Lock Types */}
             <div id="lock-types" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 5. Các loại khóa ô tô hiện đại và đặc điểm
               </h2>
 
@@ -448,13 +454,13 @@ export default function SuaKhoaOToPage() {
                 <table className="min-w-full bg-white border border-gray-200">
                   <thead>
                     <tr>
-                      <th className="py-2 px-4 border-b border-gray-200 bg-blue-50 text-left text-gray-700">
+                      <th className="py-2 px-4 border-b border-gray-200 bg-yellow-50 text-left text-gray-700">
                         Loại khóa
                       </th>
-                      <th className="py-2 px-4 border-b border-gray-200 bg-blue-50 text-left text-gray-700">
+                      <th className="py-2 px-4 border-b border-gray-200 bg-yellow-50 text-left text-gray-700">
                         Đặc điểm
                       </th>
-                      <th className="py-2 px-4 border-b border-gray-200 bg-blue-50 text-left text-gray-700">
+                      <th className="py-2 px-4 border-b border-gray-200 bg-yellow-50 text-left text-gray-700">
                         Ưu và nhược điểm
                       </th>
                     </tr>
@@ -564,7 +570,7 @@ export default function SuaKhoaOToPage() {
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
                           <li>Sử dụng điện thoại làm chìa khóa</li>
-                          <li>Kết nối qua Bluetooth/NFC</li>
+                          <li>Kết nối qua yellowtooth/NFC</li>
                           <li>Mới xuất hiện trên xe sang đời mới nhất</li>
                         </ul>
                       </td>
@@ -612,7 +618,7 @@ export default function SuaKhoaOToPage() {
 
             {/* Conclusion */}
             <div className="mb-10">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 Kết Luận
               </h2>
 
@@ -635,7 +641,7 @@ export default function SuaKhoaOToPage() {
                 thống khóa của xe.
               </p>
 
-              <div className="p-4 bg-blue-50 rounded-lg mt-6">
+              <div className="p-4 bg-yellow-50 rounded-lg mt-6">
                 <p className="text-gray-700 italic">
                   <strong>Lưu ý:</strong> Thông tin trong bài viết này chỉ mang
                   tính chất tham khảo. Đối với các vấn đề cụ thể về khóa ô tô,
@@ -647,13 +653,13 @@ export default function SuaKhoaOToPage() {
 
             {/* FAQ Section */}
             <div className="mb-10">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 Câu Hỏi Thường Gặp
               </h2>
 
               <div className="space-y-4">
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <button className="flex justify-between items-center w-full p-4 text-left bg-blue-50 hover:bg-blue-100">
+                  <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
                       Chi phí làm lại chìa khóa ô tô khi mất hoàn toàn là bao
                       nhiêu?
@@ -674,7 +680,7 @@ export default function SuaKhoaOToPage() {
                 </div>
 
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <button className="flex justify-between items-center w-full p-4 text-left bg-blue-50 hover:bg-blue-100">
+                  <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
                       Làm thế nào khi bị khóa ngoài xe với chìa bên trong?
                     </span>
@@ -695,7 +701,7 @@ export default function SuaKhoaOToPage() {
                 </div>
 
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <button className="flex justify-between items-center w-full p-4 text-left bg-blue-50 hover:bg-blue-100">
+                  <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
                       Smartkey không hoạt động dù đã thay pin phải làm sao?
                     </span>
@@ -717,7 +723,7 @@ export default function SuaKhoaOToPage() {
                 </div>
 
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <button className="flex justify-between items-center w-full p-4 text-left bg-blue-50 hover:bg-blue-100">
+                  <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
                       Có nên lắp khóa chống trộm bổ sung cho ô tô?
                     </span>
@@ -742,7 +748,7 @@ export default function SuaKhoaOToPage() {
 
             {/* Related Services */}
             <div className="mb-10">
-              <h2 className="text-2xl font-bold mb-6 border-b-2 border-blue-500 pb-2 text-gray-700 hover:text-blue-600 transition-colors duration-300">
+              <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
                 Dịch Vụ Liên Quan
               </h2>
 
@@ -756,7 +762,7 @@ export default function SuaKhoaOToPage() {
                   </p>
                   <a
                     href="/sua-khoa-xe"
-                    className="text-blue-600 hover:text-blue-800 font-medium"
+                    className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm
                   </a>
@@ -770,7 +776,7 @@ export default function SuaKhoaOToPage() {
                   </p>
                   <a
                     href="/sua-khoa-cua"
-                    className="text-blue-600 hover:text-blue-800 font-medium"
+                    className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm
                   </a>
@@ -784,7 +790,7 @@ export default function SuaKhoaOToPage() {
                   </p>
                   <a
                     href="/sua-khoa-ket-sat"
-                    className="text-blue-600 hover:text-blue-800 font-medium"
+                    className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm
                   </a>

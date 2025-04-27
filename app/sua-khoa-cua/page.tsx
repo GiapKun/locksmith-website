@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Sửa Khóa Cửa | Hướng Dẫn Toàn Diện",
+  title: "Sửa Khóa Cửa Nhanh Chóng",
   description:
-    "Hướng dẫn toàn diện về sửa khóa cửa: nguyên nhân hỏng hóc, cách khắc phục, bảo dưỡng và khi nào nên gọi thợ chuyên nghiệp.",
+    "Khóa cửa gặp vấn đề? Gọi ngay dịch vụ sửa khóa cửa chuyên nghiệp, có mặt nhanh chóng để giải quyết mọi sự cố!",
 };
 
 export default function SuaKhoaCuaPage() {
@@ -19,7 +19,7 @@ export default function SuaKhoaCuaPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            Sửa Khóa Cửa: Hướng Dẫn Toàn Diện
+            Sửa Khóa Cửa Nhanh Chóng
           </h1>
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto font-light">
