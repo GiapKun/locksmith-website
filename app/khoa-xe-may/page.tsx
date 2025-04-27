@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Sửa Khóa Xe Máy | Dịch Vụ Chuyên Nghiệp",
   description:
-    "Hướng dẫn toàn diện về sửa khóa xe máy: nguyên nhân hỏng hóc, cách khắc phục, bảo dưỡng và khi nào nên gọi thợ chuyên nghiệp.",
+    "Dịch vụ sửa khóa xe máy chuyên nghiệp, uy tín. Khắc phục nhanh mọi sự cố khóa, mang lại sự tiện lợi và an tâm cho bạn.",
 };
 
 export default function SuaKhoaXeMayPage() {
@@ -19,12 +19,12 @@ export default function SuaKhoaXeMayPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            Sửa Khóa Xe Máy: Giải Pháp Toàn Diện
+            Sửa Khóa Xe Máy: Nhanh Chóng - Hiệu Quả - Tin Cậy
           </h1>
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto font-light">
-            Tất tần tật về sửa chữa khóa xe máy, từ nguyên nhân đến cách khắc
-            phục
+            Mọi vấn đề về khóa xe máy của bạn sẽ được giải quyết nhanh chóng và
+            chuyên nghiệp. Liên hệ ngay để được hỗ trợ tốt nhất!
           </p>
         </div>
       </section>
