@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Sửa Khóa Ô Tô Thông Minh | Remote | Chíp Từ",
+  title: "Sửa Khóa Két Sắt Chuyên Nghiệp | An Toàn & Bảo Mật",
   description:
-    "Chuyên sửa chữa các loại khóa ô tô hiện đại: khóa thông minh, remote, chip từ và nhiều hơn nữa. Dịch vụ chuyên nghiệp, bảo mật.",
+    "Dịch vụ sửa khóa két sắt chuyên nghiệp, uy tín. Mở khóa, sửa chữa, thay thế linh kiện cho mọi loại két sắt, đảm bảo an toàn tuyệt đối.",
 };
 
-export default function SuaKhoaOToPage() {
+export default function SuaKhoaKetsatPage() {
   return (
     <div className="bg-white">
       {/* Header Banner */}
@@ -19,13 +19,13 @@ export default function SuaKhoaOToPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            Sửa Khóa Ô Tô Nhanh Chóng - Tiết Kiệm Thời Gian Cho Bạn
+            Sửa Khóa Két Sắt: Giải Pháp An Toàn Cho Tài Sản Của Bạn
           </h1>
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto font-light">
-            Gặp rắc rối với khóa ô tô? Đừng để nó làm gián đoạn lịch trình của
-            bạn. Dịch vụ sửa khóa ô tô chuyên nghiệp, có mặt nhanh chóng để giải
-            quyết vấn đề.
+            Dịch vụ sửa khóa két sắt chuyên nghiệp, nhanh chóng, bảo mật. Mở
+            khóa, sửa chữa, thay thế linh kiện cho mọi loại két sắt, bảo vệ tài
+            sản của bạn.
           </p>
         </div>
       </section>
@@ -38,22 +38,20 @@ export default function SuaKhoaOToPage() {
             <div className="mb-10">
               <div className="h-64 md:h-80 relative mb-6 bg-gray-200 flex items-center justify-center">
                 <span className="text-gray-400">
-                  [Hình ảnh: Các loại khóa ô tô]
+                  [Hình ảnh: Các loại khóa két sắt]
                 </span>
               </div>
               <p className="text-lg text-gray-700 mb-4">
-                Khóa ô tô là một trong những hệ thống bảo mật quan trọng nhất
-                của chiếc xe. Từ các loại chìa cơ truyền thống đến khóa thông
-                minh hiện đại, hệ thống khóa đóng vai trò thiết yếu trong việc
-                bảo vệ tài sản của bạn. Tuy nhiên, các vấn đề với khóa ô tô luôn
-                xảy ra bất ngờ và gây nhiều phiền toái cho chủ xe.
+                Khóa két sắt đóng vai trò vô cùng quan trọng trong việc bảo vệ
+                tài sản của bạn. Sự cố với khóa có thể gây ra nhiều bất tiện và
+                lo lắng. Chúng tôi cung cấp dịch vụ sửa khóa két sắt chuyên
+                nghiệp, xử lý mọi vấn đề từ đơn giản đến phức tạp.
               </p>
               <p className="text-lg text-gray-700">
-                Bài viết này sẽ giúp bạn hiểu rõ về các loại khóa ô tô phổ biến,
-                những sự cố thường gặp và cách khắc phục. Dù bạn đang sử dụng xe
-                đời cũ với chìa khóa cơ truyền thống hay xe hiện đại với khóa
-                thông minh, smartkey, những thông tin dưới đây sẽ giúp bạn xử lý
-                các tình huống bất ngờ và bảo dưỡng khóa xe đúng cách.
+                Bài viết này sẽ cung cấp thông tin về các vấn đề thường gặp với
+                khóa két sắt, cách nhận biết và khi nào cần đến sự hỗ trợ của
+                chuyên gia. Chúng tôi cam kết mang đến giải pháp an toàn và hiệu
+                quả cho mọi nhu cầu của bạn.
               </p>
             </div>
 
@@ -68,39 +66,31 @@ export default function SuaKhoaOToPage() {
                     href="#common-issues"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    1. Các vấn đề thường gặp với khóa ô tô
+                    1. Các vấn đề thường gặp với khóa két sắt
                   </a>
                 </li>
                 <li className="border-b border-gray-200 pb-2">
                   <a
-                    href="#diy-repair"
+                    href="#troubleshooting"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    2. Hướng dẫn tự khắc phục các vấn đề đơn giản
+                    2. Dấu hiệu nhận biết khóa két sắt gặp sự cố
                   </a>
                 </li>
                 <li className="border-b border-gray-200 pb-2">
                   <a
-                    href="#maintenance"
+                    href="#expert-help"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    3. Cách bảo dưỡng khóa ô tô định kỳ
-                  </a>
-                </li>
-                <li className="border-b border-gray-200 pb-2">
-                  <a
-                    href="#professional-help"
-                    className="text-yellow-600 hover:text-yellow-800"
-                  >
-                    4. Khi nào nên gọi thợ khóa ô tô chuyên nghiệp
+                    3. Khi nào cần gọi thợ sửa khóa két sắt chuyên nghiệp
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#lock-types"
+                    href="#services"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    5. Các loại khóa ô tô hiện đại và đặc điểm
+                    4. Dịch vụ sửa khóa két sắt của chúng tôi
                   </a>
                 </li>
               </ul>
@@ -109,17 +99,17 @@ export default function SuaKhoaOToPage() {
             {/* Section 1: Common Issues */}
             <div id="common-issues" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                1. Các vấn đề thường gặp với khóa ô tô
+                1. Các vấn đề thường gặp với khóa két sắt
               </h2>
 
               <h3 className="text-xl font-semibold mb-3 mt-6 text-gray-900">
                 Chìa khóa không xoay được trong ổ khóa
               </h3>
               <p className="text-gray-700 mb-4">
-                Đây là vấn đề phổ biến nhất với ổ khóa cơ. Nguyên nhân có thể do
-                ổ khóa bị bẩn, han gỉ, chìa khóa bị mòn hoặc vô-lăng đang ở chế
-                độ khóa. Trong một số trường hợp, việc khóa vô-lăng quá chặt
-                khiến ổ khóa bị kẹt và không xoay được.
+                Đây là vấn đề phổ biến nhất với khóa két sắt cơ học. Nguyên nhân
+                có thể do ổ khóa bị bẩn, han gỉ, chìa khóa bị mòn hoặc cơ chế
+                khóa bị kẹt. Trong một số trường hợp, việc vặn chìa quá mạnh khi
+                khóa bị kẹt có thể làm hỏng cơ chế bên trong.
               </p>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
@@ -129,42 +119,42 @@ export default function SuaKhoaOToPage() {
                 Tình trạng này xảy ra khi chìa khóa đã cũ, vênh, hoặc khi người
                 dùng cố dùng lực quá mạnh để xoay chìa trong ổ khóa bị kẹt. Đây
                 là trường hợp nghiêm trọng thường đòi hỏi sự trợ giúp của thợ
-                khóa chuyên nghiệp.
+                khóa chuyên nghiệp để lấy chìa gãy và sửa chữa ổ khóa.
               </p>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Remote không hoạt động
+                Khóa số không nhận mã
               </h3>
               <p className="text-gray-700 mb-4">
-                Với xe sử dụng remote, các vấn đề thường gặp bao gồm hết pin,
-                hỏng mạch điện trong remote, nhiễu tần số, hoặc mất kết nối với
-                bộ điều khiển trung tâm của xe. Đôi khi do ẩm ướt hoặc va đập
-                làm hỏng linh kiện bên trong.
+                Với két sắt sử dụng khóa số, các vấn đề thường gặp bao gồm bàn
+                phím số không nhận phím, mất điện (đối với khóa điện tử), hoặc
+                quên mã số. Đôi khi do ẩm ướt hoặc va đập làm hỏng linh kiện bên
+                trong hệ thống khóa số.
               </p>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Smartkey không nhận dạng
+                Khóa điện tử không nhận dạng vân tay/thẻ từ
               </h3>
               <p className="text-gray-700 mb-4">
-                Đối với xe dùng khóa thông minh, các vấn đề có thể là hết pin
-                trong smartkey, lỗi cảm biến, nhiễu sóng, hoặc hỏng chip trong
-                chìa khóa. Một số trường hợp có thể do hệ thống điện trên xe bị
-                lỗi khiến không nhận diện được smartkey.
+                Đối với két sắt dùng khóa vân tay hoặc thẻ từ, các vấn đề có thể
+                là cảm biến bị bẩn, hết pin, lỗi phần mềm hoặc hỏng chip trong
+                thẻ từ. Một số trường hợp có thể do hệ thống nhận dạng bị lỗi
+                sau thời gian dài sử dụng.
               </p>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
                 Mất hoặc làm mất tất cả chìa khóa
               </h3>
               <p className="text-gray-700 mb-4">
-                Đây là tình huống khó xử lý nhất, đặc biệt với các xe đời mới sử
-                dụng chìa khóa có chip mã hóa. Việc làm lại chìa khóa không chỉ
-                đơn giản là cắt một chìa mới mà còn cần lập trình chip đúng mã
-                của xe.
+                Đây là tình huống khó xử lý nhất, đặc biệt với các két sắt cao
+                cấp sử dụng chìa khóa có mã bảo mật. Việc làm lại chìa khóa
+                không chỉ đơn giản là cắt một chìa mới mà còn cần đúng kỹ thuật
+                để đảm bảo an toàn cho két sắt.
               </p>
 
               <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
                 <span className="text-gray-400">
-                  [Hình ảnh: Minh họa các vấn đề khóa ô tô]
+                  [Hình ảnh: Minh họa các vấn đề khóa két sắt]
                 </span>
               </div>
             </div>
@@ -191,70 +181,63 @@ export default function SuaKhoaOToPage() {
                   <strong>Các bước thực hiện:</strong>
                 </p>
                 <ol className="list-decimal pl-5 text-gray-700">
-                  <li>
-                    Đảm bảo vô-lăng không ở chế độ khóa (thử xoay nhẹ vô-lăng
-                    khi xoay chìa)
-                  </li>
+                  <li>Thử xoay nhẹ chìa khóa qua lại để kiểm tra mức độ kẹt</li>
                   <li>Xịt một lượng nhỏ dầu bôi trơn vào ổ khóa</li>
-                  <li>Đợi 1-2 phút để dầu thấm vào</li>
+                  <li>Đợi 1-2 phút để dầu thấm vào cơ chế khóa</li>
                   <li>Nhẹ nhàng xoay chìa khóa qua lại vài lần</li>
                   <li>Tránh dùng lực quá mạnh để tránh gãy chìa khóa</li>
                 </ol>
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Xử lý khi remote không hoạt động
+                Xử lý khi khóa số không nhận phím
               </h3>
               <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2">
                   <strong>Vật liệu cần chuẩn bị:</strong>
                 </p>
                 <ul className="list-disc pl-5 mb-4 text-gray-700">
-                  <li>
-                    Pin mới (CR2025, CR2032 hoặc theo loại pin của remote)
-                  </li>
-                  <li>Tua vít nhỏ</li>
-                  <li>Cồn và bông tăm (để làm sạch mạch)</li>
+                  <li>Pin mới (nếu là khóa điện tử)</li>
+                  <li>Tăm bông và cồn isopropyl</li>
+                  <li>Khăn mềm sạch</li>
                 </ul>
                 <p className="text-gray-700 mb-2">
                   <strong>Các bước thực hiện:</strong>
                 </p>
                 <ol className="list-decimal pl-5 text-gray-700">
-                  <li>Tháo vỏ remote theo hướng dẫn sử dụng</li>
-                  <li>Thay pin mới, đảm bảo đúng cực (+/-)</li>
-                  <li>Kiểm tra và làm sạch các điểm tiếp xúc</li>
-                  <li>Kiểm tra độ nguyên vẹn của mạch</li>
-                  <li>Lắp lại và thử hoạt động</li>
+                  <li>Thay pin mới nếu khóa sử dụng pin (đảm bảo đúng cực)</li>
+                  <li>Lau sạch bàn phím số bằng tăm bông thấm cồn</li>
+                  <li>Đợi 5 phút cho khô hoàn toàn trước khi sử dụng</li>
+                  <li>Thử nhập lại mã số chính xác</li>
+                  <li>
+                    Kiểm tra xem có tiếng &quot;bíp&quot; khi nhấn phím không
+                  </li>
                 </ol>
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Đồng bộ lại smartkey với xe
+                Khắc phục khóa vân tay không nhận diện
               </h3>
               <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2">
-                  <strong>Lưu ý:</strong> Quy trình đồng bộ khác nhau tùy theo
-                  hãng xe và đời xe. Dưới đây là quy trình tổng quát:
+                  <strong>Lưu ý:</strong> Quy trình này áp dụng cho hầu hết két
+                  sắt dùng vân tay thông dụng:
                 </p>
                 <ol className="list-decimal pl-5 text-gray-700">
-                  <li>Kiểm tra pin của smartkey, thay nếu cần</li>
-                  <li>Ngồi vào xe và đóng tất cả các cửa</li>
+                  <li>Kiểm tra và thay pin nếu cần (đối với khóa điện tử)</li>
+                  <li>Lau sạch cảm biến vân tay bằng vải mềm khô</li>
                   <li>
-                    Nhấn giữ nút khóa và mở khóa trên smartkey cùng lúc trong 5
-                    giây
+                    Đăng nhập bằng mã số phụ (nếu có) và xóa/đăng ký lại vân tay
                   </li>
+                  <li>Đảm bảo ngón tay sạch sẽ và khô ráo khi quét vân tay</li>
                   <li>
-                    Đối với một số xe, bạn cần đặt smartkey vào vị trí đặc biệt
-                    (thường là ngăn đựng cốc hoặc gần nút bấm khởi động)
-                  </li>
-                  <li>
-                    Một số xe đời mới cần thực hiện quy trình đặc biệt theo
-                    hướng dẫn sử dụng
+                    Thử đăng ký vân tay ở góc độ khác nếu thường xuyên không
+                    nhận diện
                   </li>
                 </ol>
                 <p className="text-gray-700 mt-2">
                   <strong>Quan trọng:</strong> Nếu không chắc chắn, hãy tham
-                  khảo sách hướng dẫn sử dụng xe hoặc liên hệ đại lý.
+                  khảo sách hướng dẫn sử dụng két sắt hoặc liên hệ chuyên gia.
                 </p>
               </div>
 
@@ -262,19 +245,20 @@ export default function SuaKhoaOToPage() {
                 <strong>Lưu ý:</strong> Những hướng dẫn trên chỉ phù hợp với các
                 vấn đề cơ bản. Với các tình huống phức tạp hơn như chìa khóa gãy
                 trong ổ khóa, làm lại chìa khi mất hoàn toàn, hoặc sửa hệ thống
-                khóa điện tử bị hỏng, bạn nên tìm đến thợ khóa chuyên nghiệp.
+                khóa điện tử bị hỏng, bạn nên tìm đến thợ khóa két sắt chuyên
+                nghiệp.
               </p>
             </div>
 
             {/* Section 3: Maintenance */}
             <div id="maintenance" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                3. Cách bảo dưỡng khóa ô tô định kỳ
+                3. Cách bảo dưỡng khóa két sắt định kỳ
               </h2>
 
               <p className="text-gray-700 mb-4">
                 Bảo dưỡng định kỳ giúp kéo dài tuổi thọ và đảm bảo hoạt động
-                trơn tru của hệ thống khóa ô tô. Dưới đây là lịch trình bảo
+                trơn tru của hệ thống khóa két sắt. Dưới đây là lịch trình bảo
                 dưỡng được khuyến nghị:
               </p>
 
@@ -293,10 +277,19 @@ export default function SuaKhoaOToPage() {
                   <tbody>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
+                        Hàng tháng
+                      </td>
+                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
+                        Kiểm tra pin (đối với khóa điện tử), lau sạch bề mặt
+                        khóa
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         3 tháng
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Kiểm tra pin remote/smartkey, thay nếu điện yếu
+                        Bôi trơn ổ khóa cơ với dầu chuyên dụng
                       </td>
                     </tr>
                     <tr>
@@ -304,7 +297,7 @@ export default function SuaKhoaOToPage() {
                         6 tháng
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Bôi trơn ổ khóa cửa và khóa điện với dầu chuyên dụng
+                        Kiểm tra toàn diện tình trạng khóa và cơ chế đóng mở
                       </td>
                     </tr>
                     <tr>
@@ -312,17 +305,7 @@ export default function SuaKhoaOToPage() {
                         12 tháng
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Kiểm tra toàn diện tình trạng các ổ khóa và hệ thống
-                        điện
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        24 tháng
-                      </td>
-                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Làm thêm chìa khóa dự phòng (nếu chưa có hoặc chỉ còn 1
-                        chìa)
+                        Thay pin mới (khóa điện tử), làm sạch sâu cơ chế khóa
                       </td>
                     </tr>
                   </tbody>
@@ -330,29 +313,22 @@ export default function SuaKhoaOToPage() {
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Mẹo bảo quản chìa khóa ô tô:
+                Mẹo bảo quản khóa két sắt:
               </h3>
               <ul className="list-disc pl-5 mb-6 text-gray-700">
+                <li>Tránh để két sắt ở nơi ẩm ướt có thể gây oxy hóa khóa</li>
+                <li>Không để vật nặng đè lên hoặc va đập mạnh vào vùng khóa</li>
+                <li>Luôn có ít nhất 2 chìa khóa dự phòng và cất giữ an toàn</li>
+                <li>Đối với khóa số, thay đổi mã số định kỳ để tăng bảo mật</li>
                 <li>
-                  Tránh để chìa khóa tiếp xúc với nước, đặc biệt là nước biển
+                  Với khóa vân tay, làm sạch cảm biến thường xuyên bằng vải mềm
                 </li>
-                <li>
-                  Không để chìa khóa gần thiết bị điện tử mạnh có thể gây nhiễu
-                </li>
-                <li>Tránh va đập mạnh làm hỏng linh kiện điện tử bên trong</li>
-                <li>
-                  Luôn có ít nhất 2 chìa khóa dự phòng và cất giữ ở nơi an toàn
-                </li>
-                <li>
-                  Đối với smartkey, tránh để gần điện thoại, laptop vì có thể
-                  gây hao pin
-                </li>
-                <li>Không treo quá nhiều phụ kiện nặng vào chìa khóa</li>
+                <li>Không tự ý tháo khóa khi không có chuyên môn</li>
               </ul>
 
               <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
                 <span className="text-gray-400">
-                  [Hình ảnh: Hướng dẫn bảo dưỡng khóa ô tô]
+                  [Hình ảnh: Hướng dẫn bảo dưỡng khóa két sắt]
                 </span>
               </div>
             </div>
@@ -360,12 +336,13 @@ export default function SuaKhoaOToPage() {
             {/* Section 4: Professional Help */}
             <div id="professional-help" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                4. Khi nào nên gọi thợ khóa ô tô chuyên nghiệp
+                4. Khi nào nên gọi thợ sửa khóa két sắt chuyên nghiệp
               </h2>
 
               <p className="text-gray-700 mb-4">
                 Mặc dù có thể tự xử lý một số vấn đề đơn giản, nhưng nhiều
-                trường hợp cần đến sự trợ giúp của thợ khóa chuyên nghiệp:
+                trường hợp cần đến sự trợ giúp của thợ khóa két sắt chuyên
+                nghiệp:
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -375,11 +352,9 @@ export default function SuaKhoaOToPage() {
                   </h3>
                   <ul className="list-disc pl-5 text-gray-700">
                     <li>Chìa khóa bị gãy trong ổ khóa</li>
-                    <li>Mất tất cả chìa khóa của xe</li>
-                    <li>Bị khóa ngoài xe khi chìa còn bên trong</li>
-                    <li>
-                      Ổ khóa hoàn toàn không xoay được dù đã thử các biện pháp
-                    </li>
+                    <li>Mất tất cả chìa khóa của két sắt</li>
+                    <li>Quên mã số và không có chìa dự phòng</li>
+                    <li>Khóa bị kẹt cứng không thể mở bằng bất kỳ cách nào</li>
                     <li>
                       Hệ thống khóa bị hỏng sau khi có dấu hiệu bị cạy phá
                     </li>
@@ -390,29 +365,29 @@ export default function SuaKhoaOToPage() {
                     Vấn đề phức tạp
                   </h3>
                   <ul className="list-disc pl-5 text-gray-700">
-                    <li>
-                      Cần làm lại hoàn toàn chìa khóa có chip (immobilizer)
-                    </li>
-                    <li>Lập trình lại hệ thống khóa thông minh</li>
-                    <li>Thay thế toàn bộ ổ khóa điện</li>
-                    <li>Sửa chữa hệ thống điện liên quan đến khóa</li>
-                    <li>Cài đặt thêm hệ thống khóa chống trộm cao cấp</li>
+                    <li>Cần làm lại hoàn toàn chìa khóa có mã bảo mật</li>
+                    <li>Lập trình lại hệ thống khóa số/điện tử</li>
+                    <li>Thay thế toàn bộ ổ khóa</li>
+                    <li>Sửa chữa hệ thống điện tử liên quan đến khóa</li>
+                    <li>Nâng cấp hệ thống khóa lên công nghệ mới</li>
                   </ul>
                 </div>
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Tiêu chí chọn thợ khóa ô tô uy tín:
+                Tiêu chí chọn thợ sửa khóa két sắt uy tín:
               </h3>
               <ul className="list-disc pl-5 mb-6 text-gray-700">
-                <li>Có chuyên môn và kinh nghiệm với đúng loại xe của bạn</li>
                 <li>
-                  Sở hữu thiết bị chuyên dụng để lập trình chìa khóa có chip
+                  Có chuyên môn và kinh nghiệm với đúng loại két sắt của bạn
+                </li>
+                <li>
+                  Sở hữu thiết bị chuyên dụng để lập trình khóa số/điện tử
                 </li>
                 <li>Cung cấp bảo hành cho dịch vụ</li>
                 <li>Có đánh giá tốt từ khách hàng trước đó</li>
                 <li>Minh bạch về chi phí trước khi thực hiện công việc</li>
-                <li>Có dịch vụ hỗ trợ khẩn cấp 24/7</li>
+                <li>Tôn trọng quyền riêng tư và bảo mật thông tin</li>
               </ul>
 
               <div className="p-4 bg-yellow-50 rounded-lg mb-6">
@@ -420,21 +395,19 @@ export default function SuaKhoaOToPage() {
                   <strong className="text-yellow-700">
                     Chi phí tham khảo:
                   </strong>{" "}
-                  Giá dịch vụ sửa khóa ô tô dao động rất lớn tùy theo loại xe và
+                  Giá dịch vụ sửa khóa két sắt dao động tùy theo loại khóa và
                   vấn đề cụ thể:
                 </p>
                 <ul className="list-disc pl-5 text-gray-700">
-                  <li>Mở cửa xe khi bị khóa ngoài: 300.000đ - 700.000đ</li>
+                  <li>Mở khóa khi bị kẹt: 300.000đ - 800.000đ</li>
                   <li>Làm chìa khóa cơ thông thường: 200.000đ - 500.000đ</li>
-                  <li>Làm chìa khóa có chip đơn giản: 600.000đ - 1.500.000đ</li>
-                  <li>
-                    Làm lại smartkey khi mất hoàn toàn: 1.500.000đ - 5.000.000đ
-                  </li>
-                  <li>Thay thế ổ khóa điện: 1.000.000đ - 3.000.000đ</li>
+                  <li>Làm chìa khóa có mã bảo mật: 500.000đ - 1.200.000đ</li>
+                  <li>Sửa chữa khóa số/điện tử: 800.000đ - 2.000.000đ</li>
+                  <li>Thay thế toàn bộ ổ khóa: 1.000.000đ - 3.000.000đ</li>
                 </ul>
                 <p className="text-gray-700 mt-2 italic">
-                  Giá có thể cao hơn đối với xe hạng sang hoặc những trường hợp
-                  đặc biệt phức tạp.
+                  Giá có thể cao hơn đối với két sắt cao cấp hoặc những trường
+                  hợp đặc biệt phức tạp.
                 </p>
               </div>
             </div>
@@ -442,12 +415,12 @@ export default function SuaKhoaOToPage() {
             {/* Section 5: Lock Types */}
             <div id="lock-types" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                5. Các loại khóa ô tô hiện đại và đặc điểm
+                5. Các loại khóa két sắt phổ biến và đặc điểm
               </h2>
 
               <p className="text-gray-700 mb-6">
-                Hiểu rõ về loại khóa trên xe giúp bạn có phương án bảo dưỡng và
-                xử lý sự cố phù hợp:
+                Hiểu rõ về loại khóa trên két sắt giúp bạn có phương án bảo
+                dưỡng và xử lý sự cố phù hợp:
               </p>
 
               <div className="overflow-x-auto mb-8">
@@ -473,8 +446,8 @@ export default function SuaKhoaOToPage() {
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
                           <li>Sử dụng chìa cơ đơn giản</li>
-                          <li>Không có chip điện tử</li>
-                          <li>Phổ biến trên xe đời cũ</li>
+                          <li>Không phụ thuộc vào điện</li>
+                          <li>Phổ biến trên két sắt thông dụng</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
@@ -491,62 +464,60 @@ export default function SuaKhoaOToPage() {
                     </tr>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Khóa có Remote
+                        Khóa số cơ học
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Có remote điều khiển từ xa</li>
-                          <li>Chìa vẫn dùng để khởi động</li>
-                          <li>Phổ biến từ 2000-2015</li>
+                          <li>Mở bằng mã số xoay núm</li>
+                          <li>Không cần chìa khóa</li>
+                          <li>Phổ biến trên két sắt tầm trung</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        <span className="text-green-600">+</span> Tiện lợi khi
-                        đóng/mở cửa
+                        <span className="text-green-600">+</span> Không cần chìa
                         <br />
                         <span className="text-green-600">+</span> Bảo mật khá
                         tốt
                         <br />
-                        <span className="text-red-600">-</span> Phụ thuộc pin
-                        remote
+                        <span className="text-red-600">-</span> Dễ quên mã số
                         <br />
-                        <span className="text-red-600">-</span> Remote dễ hỏng
-                        khi va đập
+                        <span className="text-red-600">-</span> Cơ chế phức tạp
+                        dễ hỏng
                       </td>
                     </tr>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Khóa có Immobilizer
+                        Khóa số điện tử
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Chìa có chip giao tiếp với ECU</li>
-                          <li>Xe không khởi động nếu không có chìa đúng</li>
-                          <li>Phổ biến từ 2005 đến nay</li>
+                          <li>Mở bằng mã số bấm phím</li>
+                          <li>Có thể kết hợp chìa cơ dự phòng</li>
+                          <li>Phổ biến trên két sắt hiện đại</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
+                        <span className="text-green-600">+</span> Tiện lợi, dễ
+                        sử dụng
+                        <br />
                         <span className="text-green-600">+</span> Bảo mật cao
                         <br />
-                        <span className="text-green-600">+</span> Chống trộm
-                        hiệu quả
+                        <span className="text-red-600">-</span> Phụ thuộc vào
+                        pin
                         <br />
-                        <span className="text-red-600">-</span> Khó và đắt khi
-                        làm lại chìa
-                        <br />
-                        <span className="text-red-600">-</span> Có thể gặp lỗi
-                        khi chip hỏng
+                        <span className="text-red-600">-</span> Chi phí sửa chữa
+                        cao
                       </td>
                     </tr>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Smartkey
+                        Khóa vân tay
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Không cần cắm chìa để khởi động</li>
-                          <li>Chỉ cần mang theo bên người</li>
-                          <li>Phổ biến trên xe đời mới, cao cấp</li>
+                          <li>Mở bằng vân tay đã đăng ký</li>
+                          <li>Thường có thêm mã số dự phòng</li>
+                          <li>Phổ biến trên két sắt cao cấp</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
@@ -559,33 +530,34 @@ export default function SuaKhoaOToPage() {
                         <span className="text-red-600">-</span> Chi phí thay thế
                         rất cao
                         <br />
-                        <span className="text-red-600">-</span> Phức tạp khi gặp
-                        sự cố
+                        <span className="text-red-600">-</span> Cảm biến có thể
+                        lỗi theo thời gian
                       </td>
                     </tr>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Khóa điện thoại (Digital Key)
+                        Khóa thẻ từ
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Sử dụng điện thoại làm chìa khóa</li>
-                          <li>Kết nối qua yellowtooth/NFC</li>
-                          <li>Mới xuất hiện trên xe sang đời mới nhất</li>
+                          <li>Mở bằng thẻ từ chuyên dụng</li>
+                          <li>
+                            Thường dùng trong két sắt khách sạn, văn phòng
+                          </li>
+                          <li>Có thể lập trình nhiều thẻ khác nhau</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        <span className="text-green-600">+</span> Cực kỳ hiện
-                        đại và tiện lợi
+                        <span className="text-green-600">+</span> Quản lý truy
+                        cập dễ dàng
                         <br />
-                        <span className="text-green-600">+</span> Chia sẻ quyền
-                        truy cập dễ dàng
+                        <span className="text-green-600">+</span> Thuận tiện cho
+                        nhiều người sử dụng
                         <br />
-                        <span className="text-red-600">-</span> Phụ thuộc pin
-                        điện thoại
+                        <span className="text-red-600">-</span> Dễ mất thẻ
                         <br />
-                        <span className="text-red-600">-</span> Rủi ro bảo mật
-                        cao nếu bị hack
+                        <span className="text-red-600">-</span> Hệ thống phức
+                        tạp, chi phí bảo trì cao
                       </td>
                     </tr>
                   </tbody>
@@ -593,25 +565,28 @@ export default function SuaKhoaOToPage() {
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Lời khuyên khi lựa chọn hệ thống khóa cho ô tô:
+                Lời khuyên khi lựa chọn khóa két sắt:
               </h3>
               <ul className="list-disc pl-5 mb-6 text-gray-700">
                 <li>
-                  Xe đời cũ: Cân nhắc nâng cấp lên hệ thống có remote và
-                  immobilizer để tăng bảo mật
+                  Két sắt gia đình: Nên chọn loại có cả khóa số điện tử và chìa
+                  cơ dự phòng
                 </li>
                 <li>
-                  Luôn làm ít nhất 2-3 chìa khóa dự phòng ngay khi mua xe mới
+                  Luôn làm ít nhất 2-3 chìa khóa dự phòng ngay khi mua két sắt
+                  mới
                 </li>
                 <li>
-                  Đối với xe sử dụng smartkey, nên có ít nhất một chìa dự phòng
+                  Đối với két sắt văn phòng: Cân nhắc loại có thể lập trình
+                  nhiều mã số hoặc thẻ từ
                 </li>
                 <li>
-                  Cân nhắc lắp thêm hệ thống chống trộm bổ sung cho xe đắt tiền
+                  Két sắt cao cấp: Chọn loại có nhiều lớp bảo mật (vân tay + mã
+                  số + chìa)
                 </li>
                 <li>
-                  Lưu lại mã số khóa (key code) của xe để dễ dàng làm chìa khi
-                  cần
+                  Lưu lại mã số khóa và thông tin sản phẩm để dễ dàng làm chìa
+                  khi cần
                 </li>
               </ul>
             </div>
@@ -623,30 +598,34 @@ export default function SuaKhoaOToPage() {
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Hệ thống khóa ô tô ngày càng phát triển với công nghệ hiện đại,
-                mang lại sự tiện lợi và an toàn cho người sử dụng. Tuy nhiên,
-                càng hiện đại thì việc sửa chữa và thay thế càng trở nên phức
-                tạp và tốn kém.
+                Hệ thống khóa két sắt ngày càng phát triển với công nghệ hiện
+                đại, mang lại sự tiện lợi và an toàn cho người sử dụng. Tuy
+                nhiên, càng hiện đại thì việc sửa chữa và thay thế càng trở nên
+                phức tạp và tốn kém.
               </p>
               <p className="text-gray-700 mb-4">
-                Việc hiểu rõ về loại khóa trên xe của bạn, thực hiện bảo dưỡng
-                định kỳ và biết cách xử lý các vấn đề cơ bản sẽ giúp bạn tiết
-                kiệm thời gian, chi phí và tránh những tình huống khó xử. Đặc
-                biệt, việc luôn có chìa khóa dự phòng là biện pháp đơn giản
-                nhưng hiệu quả nhất để phòng tránh rủi ro.
+                Việc hiểu rõ cấu tạo và nguyên lý hoạt động của khóa két sắt
+                giúp bạn phát hiện sớm các dấu hiệu hư hỏng và có biện pháp xử
+                lý kịp thời. Ngoài ra, bảo dưỡng định kỳ là cách hiệu quả để kéo
+                dài tuổi thọ cho khóa két sắt, đồng thời đảm bảo an toàn cho tài
+                sản quý giá bên trong.
               </p>
               <p className="text-gray-700 mb-4">
-                Đối với những vấn đề phức tạp, đừng ngần ngại tìm đến sự trợ
-                giúp của thợ khóa ô tô chuyên nghiệp để tránh làm hỏng thêm hệ
-                thống khóa của xe.
+                Đối với các trường hợp phức tạp như quên mã số, mất chìa khóa
+                hoặc khóa bị hỏng nặng, việc tìm đến dịch vụ sửa khóa két sắt
+                chuyên nghiệp là lựa chọn khôn ngoan nhất. Đừng tự ý can thiệp
+                vào két sắt nếu không có kiến thức chuyên môn, vì điều này có
+                thể làm hỏng hoàn toàn hệ thống khóa hoặc thậm chí kích hoạt cơ
+                chế tự khóa vĩnh viễn.
               </p>
 
               <div className="p-4 bg-yellow-50 rounded-lg mt-6">
                 <p className="text-gray-700 italic">
                   <strong>Lưu ý:</strong> Thông tin trong bài viết này chỉ mang
-                  tính chất tham khảo. Đối với các vấn đề cụ thể về khóa ô tô,
-                  hãy luôn tham khảo sách hướng dẫn sử dụng xe hoặc liên hệ với
-                  đại lý, thợ khóa chuyên nghiệp để được tư vấn phù hợp.
+                  tính chất tham khảo. Đối với các vấn đề liên quan đến khóa két
+                  sắt, đặc biệt là két sắt điện tử hoặc két sắt cao cấp, hãy
+                  luôn tham khảo ý kiến của chuyên gia hoặc liên hệ với nhà sản
+                  xuất để được hỗ trợ kịp thời.
                 </p>
               </div>
             </div>
@@ -661,20 +640,19 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Chi phí làm lại chìa khóa ô tô khi mất hoàn toàn là bao
-                      nhiêu?
+                      Tôi quên mã số két sắt, làm cách nào để mở?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Chi phí làm lại chìa khóa ô tô khi mất hoàn toàn phụ thuộc
-                      vào loại xe và loại khóa. Đối với xe đời cũ dùng chìa cơ,
-                      chi phí khoảng 200.000đ - 500.000đ. Với xe có chìa khóa có
-                      chip, chi phí từ 1.000.000đ - 3.000.000đ. Xe dùng
-                      smartkey, chi phí có thể lên đến 2.000.000đ - 6.000.000đ
-                      hoặc cao hơn đối với xe sang. Bạn nên liên hệ đại lý hoặc
-                      thợ khóa chuyên nghiệp để được báo giá chính xác.
+                      Nếu quên mã số, trước tiên hãy tìm kiếm sổ tay hướng dẫn
+                      sử dụng hoặc giấy tờ mua hàng, vì một số nhà sản xuất có
+                      ghi mã mặc định. Nếu không tìm thấy, liên hệ với nhà sản
+                      xuất và cung cấp thông tin xác minh quyền sở hữu. Trường
+                      hợp khẩn cấp, hãy gọi dịch vụ sửa khóa két sắt chuyên
+                      nghiệp - họ có các phương pháp an toàn để mở két mà không
+                      làm hỏng kết cấu.
                     </p>
                   </div>
                 </div>
@@ -682,20 +660,19 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Làm thế nào khi bị khóa ngoài xe với chìa bên trong?
+                      Khóa vân tay két sắt có đáng tin cậy không?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Khi bị khóa ngoài xe với chìa bên trong, tuyệt đối không
-                      nên cố tự mở cửa bằng các vật nhọn sẽ làm hỏng gioăng cửa
-                      và hệ thống khóa. Cách xử lý tốt nhất là: (1) Gọi thợ khóa
-                      ô tô chuyên nghiệp - đây là phương án an toàn nhất, (2)
-                      Liên hệ dịch vụ cứu hộ của hãng xe nếu xe đang trong thời
-                      gian bảo hành, (3) Sử dụng ứng dụng điều khiển từ xa nếu
-                      xe hỗ trợ. Chi phí mở cửa xe khi bị khóa ngoài thường từ
-                      300.000đ - 800.000đ.
+                      Khóa vân tay két sắt hiện đại rất đáng tin cậy với tỷ lệ
+                      nhận diện chính xác cao. Tuy nhiên, chúng vẫn có thể gặp
+                      vấn đề khi tay quá ẩm, quá khô hoặc có vết thương. Hầu hết
+                      các két sắt vân tay đều có phương thức dự phòng như mã số
+                      hoặc chìa khóa cơ. Để đảm bảo an toàn, nên chọn két từ
+                      thương hiệu uy tín và luôn cập nhật phần mềm theo khuyến
+                      nghị của nhà sản xuất.
                     </p>
                   </div>
                 </div>
@@ -703,21 +680,19 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Smartkey không hoạt động dù đã thay pin phải làm sao?
+                      Két sắt báo tín hiệu pin yếu, tôi có nên thay ngay không?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Khi smartkey không hoạt động dù đã thay pin, hãy thử các
-                      cách sau: (1) Kiểm tra đúng loại pin và lắp đúng cực, (2)
-                      Làm sạch các điểm tiếp xúc bên trong smartkey, (3) Thử đặt
-                      smartkey vào vị trí đặc biệt trên xe (thường là hộc cốc)
-                      để khởi động khẩn cấp, (4) Thử quy trình đồng bộ lại
-                      smartkey theo hướng dẫn của xe, (5) Kiểm tra xem có bị
-                      nhiễu tín hiệu do gần thiết bị điện tử khác không. Nếu vẫn
-                      không được, có thể smartkey đã bị hỏng mạch điện bên trong
-                      và cần được thay thế hoặc sửa chữa bởi chuyên gia.
+                      Khi két sắt báo pin yếu, bạn nên thay pin càng sớm càng
+                      tốt, không nên chờ đợi. Két sắt điện tử thường có pin dự
+                      phòng bên trong, nhưng chỉ đủ dùng trong thời gian ngắn.
+                      Trước khi thay pin, hãy chuẩn bị chìa khóa dự phòng hoặc
+                      nhớ mã số phụ, đề phòng trường hợp két tự khởi động lại về
+                      cài đặt gốc sau khi thay pin. Nên sử dụng pin chất lượng
+                      cao từ các thương hiệu nổi tiếng để đảm bảo độ bền.
                     </p>
                   </div>
                 </div>
@@ -725,21 +700,41 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Có nên lắp khóa chống trộm bổ sung cho ô tô?
+                      Làm gì khi cơ chế khóa két sắt bị kẹt?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Việc lắp khóa chống trộm bổ sung rất hữu ích cho những xe
-                      đời cũ có hệ thống bảo mật thấp hoặc xe đắt tiền thường là
-                      mục tiêu của trộm cắp. Các loại khóa chống trộm phổ biến
-                      bao gồm: khóa cần số, khóa vô-lăng, khóa chân phanh, hệ
-                      thống định vị GPS, hệ thống cắt điện thông minh. Tuy
-                      nhiên, cần lắp đặt tại cơ sở uy tín để đảm bảo không ảnh
-                      hưởng đến hệ thống điện và vận hành của xe. Chi phí lắp
-                      đặt từ 500.000đ đến vài triệu đồng tùy loại, nhưng đây là
-                      khoản đầu tư xứng đáng để bảo vệ tài sản giá trị của bạn.
+                      Khi cơ chế khóa bị kẹt, trước tiên đừng dùng lực mạnh. Nếu
+                      là khóa cơ, thử bôi trơn nhẹ nhàng bằng bột graphite đặc
+                      biệt cho khóa (không dùng dầu). Đối với khóa điện tử, kiểm
+                      tra pin và thử reset hệ thống theo hướng dẫn. Nếu két sắt
+                      vẫn không mở được, hãy liên hệ ngay với dịch vụ chuyên
+                      nghiệp - việc cố gắng mở bằng lực có thể kích hoạt cơ chế
+                      chống đột nhập và làm két bị khóa hoàn toàn.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                  <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
+                    <span className="font-semibold text-gray-900">
+                      Chi phí sửa khóa két sắt thường là bao nhiêu?
+                    </span>
+                    <span>+</span>
+                  </button>
+                  <div className="p-4 border-t border-gray-200 bg-white">
+                    <p className="text-gray-700">
+                      Chi phí sửa khóa két sắt phụ thuộc vào loại két, tính chất
+                      hư hỏng và khu vực địa lý. Mở két khi quên mã số có thể từ
+                      500.000đ đến 2.000.000đ. Sửa chữa khóa cơ thường từ
+                      300.000đ đến 1.000.000đ. Đối với khóa điện tử, chi phí cao
+                      hơn, từ 1.000.000đ đến 3.000.000đ tùy mức độ phức tạp.
+                      Thay thế toàn bộ hệ thống khóa sẽ đắt hơn, có thể từ
+                      2.000.000đ đến 5.000.000đ cho các két sắt cao cấp. Một số
+                      công ty có phí tư vấn và kiểm tra miễn phí, nhưng tính phí
+                      di chuyển nếu ở xa.
                     </p>
                   </div>
                 </div>
@@ -755,13 +750,27 @@ export default function SuaKhoaOToPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                    Sửa Khóa Xe Máy
+                    Sửa Remote Cửa Cuốn
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    Dịch vụ sửa, làm chìa khóa xe máy các loại
+                    Dịch vụ sửa khóa, thay pin remote cửa cuốn
                   </p>
                   <a
-                    href="/sua-khoa-xe"
+                    href="/remote-cua-cuon"
+                    className="text-yellow-600 hover:text-yellow-800 font-medium"
+                  >
+                    Tìm hiểu thêm
+                  </a>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                    Sửa Khóa Tủ
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Dịch vụ sửa khóa tủ, làm chìa khóa tủ
+                  </p>
+                  <a
+                    href="/sua-khoa-tu"
                     className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm
@@ -776,20 +785,6 @@ export default function SuaKhoaOToPage() {
                   </p>
                   <a
                     href="/sua-khoa-cua"
-                    className="text-yellow-600 hover:text-yellow-800 font-medium"
-                  >
-                    Tìm hiểu thêm
-                  </a>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                    Sửa Khóa Két Sắt
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    Dịch vụ mở, sửa và thay thế khóa két sắt các loại
-                  </p>
-                  <a
-                    href="/sua-khoa-ket-sat"
                     className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm
