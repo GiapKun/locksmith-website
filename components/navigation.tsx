@@ -35,11 +35,9 @@ export default function Navigation() {
     { name: "SỬA KHÓA CỬA", href: "/sua-khoa-cua" },
     { name: "KHÓA XE MÁY", href: "/khoa-xe-may" },
     { name: "KHÓA Ô TÔ", href: "/khoa-o-to" },
-    { name: "CHÉP THẺ TỪ", href: "/chep-the-tu" },
     { name: "SỬA KHÓA KÉT", href: "/sua-khoa-ket" },
     { name: "REMOTE CỬA CUỐN", href: "/remote-cua-cuon" },
     { name: "SỬA KHÓA TỦ", href: "/sua-khoa-tu" },
-    { name: "KHÓA CỬA ĐIỆN TỬ", href: "/khoa-cua-dien-tu" },
   ];
 
   return (

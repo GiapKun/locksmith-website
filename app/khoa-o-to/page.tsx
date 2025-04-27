@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Sửa Khóa Ô Tô Thông Minh | Remote | Chíp Từ",
+  title: "Sửa Khóa Két Sắt Chuyên Nghiệp | An Toàn & Bảo Mật",
   description:
-    "Chuyên sửa chữa các loại khóa ô tô hiện đại: khóa thông minh, remote, chip từ và nhiều hơn nữa. Dịch vụ chuyên nghiệp, bảo mật.",
+    "Dịch vụ sửa khóa két sắt chuyên nghiệp, uy tín. Mở khóa, sửa chữa, thay thế linh kiện cho mọi loại két sắt, đảm bảo an toàn tuyệt đối.",
 };
 
 export default function SuaKhoaOToPage() {
@@ -755,41 +755,41 @@ export default function SuaKhoaOToPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                    Sửa Khóa Xe Máy
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    Dịch vụ sửa, làm chìa khóa xe máy các loại
-                  </p>
-                  <a
-                    href="/sua-khoa-xe"
-                    className="text-yellow-600 hover:text-yellow-800 font-medium"
-                  >
-                    Tìm hiểu thêm
-                  </a>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                    Sửa Khóa Cửa
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    Dịch vụ sửa chữa khóa cửa các loại
-                  </p>
-                  <a
-                    href="/sua-khoa-cua"
-                    className="text-yellow-600 hover:text-yellow-800 font-medium"
-                  >
-                    Tìm hiểu thêm
-                  </a>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">
                     Sửa Khóa Két Sắt
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    Dịch vụ mở, sửa và thay thế khóa két sắt các loại
+                    Dịch vụ sửa khóa két sắt, mở khóa két sắt
                   </p>
                   <a
-                    href="/sua-khoa-ket-sat"
+                    href="/sua-khoa-ket"
+                    className="text-yellow-600 hover:text-yellow-800 font-medium"
+                  >
+                    Tìm hiểu thêm
+                  </a>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                    Sửa Remote Cửa Cuốn
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Dịch vụ sửa khóa, thay pin remote cửa cuốn
+                  </p>
+                  <a
+                    href="/remote-cua-cuon"
+                    className="text-yellow-600 hover:text-yellow-800 font-medium"
+                  >
+                    Tìm hiểu thêm
+                  </a>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                    Sửa Khóa Tủ
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Dịch vụ sửa khóa tủ, làm chìa khóa tủ
+                  </p>
+                  <a
+                    href="/sua-khoa-tu"
                     className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm

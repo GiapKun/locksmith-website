@@ -611,13 +611,13 @@ export default function SuaKhoaXeMayPage() {
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                    Sửa Khóa Cửa
+                    Sửa Khóa Két Sắt
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    Dịch vụ sửa chữa khóa cửa các loại
+                    Dịch vụ sửa khóa két sắt, mở khóa két sắt
                   </p>
                   <a
-                    href="/sua-khoa-cua"
+                    href="/sua-khoa-ket"
                     className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm
@@ -625,13 +625,13 @@ export default function SuaKhoaXeMayPage() {
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                    Sửa Khóa Két Sắt
+                    Sửa Khóa Tủ
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    Dịch vụ mở, sửa và thay thế khóa két sắt các loại
+                    Dịch vụ sửa khóa tủ, làm chìa khóa tủ
                   </p>
                   <a
-                    href="/sua-khoa-ket"
+                    href="/sua-khoa-tu"
                     className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm

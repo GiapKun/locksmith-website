@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Sửa Khóa Ô Tô Thông Minh | Remote | Chíp Từ",
+  title: "Sửa Khóa Tủ Chuyên Nghiệp | An Toàn & Bảo Mật",
   description:
-    "Chuyên sửa chữa các loại khóa ô tô hiện đại: khóa thông minh, remote, chip từ và nhiều hơn nữa. Dịch vụ chuyên nghiệp, bảo mật.",
+    "Dịch vụ sửa khóa tủ chuyên nghiệp, uy tín. Sửa chữa, thay thế, mở khóa cho mọi loại tủ gỗ, tủ sắt, tủ đồ, đảm bảo an toàn tuyệt đối.",
 };
 
-export default function SuaKhoaOToPage() {
+export default function SuaKhoaTuPage() {
   return (
     <div className="bg-white">
       {/* Header Banner */}
@@ -19,13 +19,13 @@ export default function SuaKhoaOToPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            Sửa Khóa Ô Tô Nhanh Chóng - Tiết Kiệm Thời Gian Cho Bạn
+            Sửa Khóa Tủ: Giải Pháp Bảo Vệ Tài Sản Cá Nhân Hiệu Quả
           </h1>
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto font-light">
-            Gặp rắc rối với khóa ô tô? Đừng để nó làm gián đoạn lịch trình của
-            bạn. Dịch vụ sửa khóa ô tô chuyên nghiệp, có mặt nhanh chóng để giải
-            quyết vấn đề.
+            Dịch vụ sửa khóa tủ chuyên nghiệp, nhanh chóng, bảo mật. Sửa chữa,
+            thay thế, mở khóa cho mọi loại tủ văn phòng, tủ quần áo, tủ hồ sơ
+            đảm bảo an toàn cho tài sản của bạn.
           </p>
         </div>
       </section>
@@ -38,22 +38,21 @@ export default function SuaKhoaOToPage() {
             <div className="mb-10">
               <div className="h-64 md:h-80 relative mb-6 bg-gray-200 flex items-center justify-center">
                 <span className="text-gray-400">
-                  [Hình ảnh: Các loại khóa ô tô]
+                  [Hình ảnh: Các loại khóa tủ phổ biến]
                 </span>
               </div>
               <p className="text-lg text-gray-700 mb-4">
-                Khóa ô tô là một trong những hệ thống bảo mật quan trọng nhất
-                của chiếc xe. Từ các loại chìa cơ truyền thống đến khóa thông
-                minh hiện đại, hệ thống khóa đóng vai trò thiết yếu trong việc
-                bảo vệ tài sản của bạn. Tuy nhiên, các vấn đề với khóa ô tô luôn
-                xảy ra bất ngờ và gây nhiều phiền toái cho chủ xe.
+                Khóa tủ đóng vai trò quan trọng trong việc bảo vệ tài sản, tài
+                liệu và đồ dùng cá nhân của bạn. Sự cố với khóa tủ có thể gây ra
+                nhiều bất tiện trong cuộc sống hàng ngày và công việc. Chúng tôi
+                cung cấp dịch vụ sửa khóa tủ chuyên nghiệp, xử lý mọi vấn đề từ
+                đơn giản đến phức tạp.
               </p>
               <p className="text-lg text-gray-700">
-                Bài viết này sẽ giúp bạn hiểu rõ về các loại khóa ô tô phổ biến,
-                những sự cố thường gặp và cách khắc phục. Dù bạn đang sử dụng xe
-                đời cũ với chìa khóa cơ truyền thống hay xe hiện đại với khóa
-                thông minh, smartkey, những thông tin dưới đây sẽ giúp bạn xử lý
-                các tình huống bất ngờ và bảo dưỡng khóa xe đúng cách.
+                Bài viết này sẽ cung cấp thông tin về các vấn đề thường gặp với
+                khóa tủ, cách nhận biết hư hỏng và khi nào cần đến sự hỗ trợ của
+                chuyên gia. Chúng tôi cam kết mang đến giải pháp an toàn và hiệu
+                quả cho mọi nhu cầu của bạn.
               </p>
             </div>
 
@@ -68,39 +67,31 @@ export default function SuaKhoaOToPage() {
                     href="#common-issues"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    1. Các vấn đề thường gặp với khóa ô tô
+                    1. Các vấn đề thường gặp với khóa tủ
                   </a>
                 </li>
                 <li className="border-b border-gray-200 pb-2">
                   <a
-                    href="#diy-repair"
+                    href="#troubleshooting"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    2. Hướng dẫn tự khắc phục các vấn đề đơn giản
+                    2. Dấu hiệu nhận biết khóa tủ gặp sự cố
                   </a>
                 </li>
                 <li className="border-b border-gray-200 pb-2">
                   <a
-                    href="#maintenance"
+                    href="#expert-help"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    3. Cách bảo dưỡng khóa ô tô định kỳ
-                  </a>
-                </li>
-                <li className="border-b border-gray-200 pb-2">
-                  <a
-                    href="#professional-help"
-                    className="text-yellow-600 hover:text-yellow-800"
-                  >
-                    4. Khi nào nên gọi thợ khóa ô tô chuyên nghiệp
+                    3. Khi nào cần gọi thợ sửa khóa chuyên nghiệp
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#lock-types"
+                    href="#services"
                     className="text-yellow-600 hover:text-yellow-800"
                   >
-                    5. Các loại khóa ô tô hiện đại và đặc điểm
+                    4. Dịch vụ sửa khóa tủ của chúng tôi
                   </a>
                 </li>
               </ul>
@@ -109,62 +100,60 @@ export default function SuaKhoaOToPage() {
             {/* Section 1: Common Issues */}
             <div id="common-issues" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                1. Các vấn đề thường gặp với khóa ô tô
+                1. Các vấn đề thường gặp với khóa tủ
               </h2>
 
               <h3 className="text-xl font-semibold mb-3 mt-6 text-gray-900">
-                Chìa khóa không xoay được trong ổ khóa
+                Khóa tủ bị kẹt không xoay được
               </h3>
               <p className="text-gray-700 mb-4">
-                Đây là vấn đề phổ biến nhất với ổ khóa cơ. Nguyên nhân có thể do
-                ổ khóa bị bẩn, han gỉ, chìa khóa bị mòn hoặc vô-lăng đang ở chế
-                độ khóa. Trong một số trường hợp, việc khóa vô-lăng quá chặt
-                khiến ổ khóa bị kẹt và không xoay được.
+                Đây là vấn đề phổ biến nhất với khóa tủ. Nguyên nhân có thể do
+                cơ chế khóa bị gỉ sét, bụi bẩn tích tụ lâu ngày, chìa khóa không
+                phù hợp hoặc bộ phận lò xo bên trong bị hỏng. Đôi khi do lỗi lắp
+                đặt ban đầu khiến khóa không khớp với vị trí.
+              </p>
+
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">
+                Không thể rút chìa khóa ra
+              </h3>
+              <p className="text-gray-700 mb-4">
+                Tình trạng này thường xảy ra khi bộ phận chốt giữ chìa bị hỏng,
+                hoặc chìa khóa bị biến dạng nhẹ. Đôi khi do bụi bẩn làm tắc
+                nghẽn ổ khóa hoặc do chìa khóa không đặt đúng vị trí để có thể
+                rút ra.
               </p>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
                 Chìa khóa gãy trong ổ khóa
               </h3>
               <p className="text-gray-700 mb-4">
-                Tình trạng này xảy ra khi chìa khóa đã cũ, vênh, hoặc khi người
-                dùng cố dùng lực quá mạnh để xoay chìa trong ổ khóa bị kẹt. Đây
-                là trường hợp nghiêm trọng thường đòi hỏi sự trợ giúp của thợ
-                khóa chuyên nghiệp.
+                Đây là tình huống khá nghiêm trọng và thường xảy ra khi chìa
+                khóa làm từ vật liệu kém chất lượng, hoặc do cố dùng lực quá
+                mạnh khi khóa bị kẹt. Khi chìa gãy trong ổ, việc tự ý lấy ra có
+                thể làm hỏng thêm ổ khóa.
               </p>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Remote không hoạt động
+                Khóa số bị quên mã hoặc lỗi
               </h3>
               <p className="text-gray-700 mb-4">
-                Với xe sử dụng remote, các vấn đề thường gặp bao gồm hết pin,
-                hỏng mạch điện trong remote, nhiễu tần số, hoặc mất kết nối với
-                bộ điều khiển trung tâm của xe. Đôi khi do ẩm ướt hoặc va đập
-                làm hỏng linh kiện bên trong.
+                Đối với các loại tủ dùng khóa số, việc quên mã số hoặc khóa bị
+                lỗi hệ thống là vấn đề thường gặp. Đôi khi pin yếu (với khóa
+                điện tử) cũng có thể khiến khóa không hoạt động chính xác.
               </p>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Smartkey không nhận dạng
+                Khóa tủ bị lỏng hoặc rơi ra
               </h3>
               <p className="text-gray-700 mb-4">
-                Đối với xe dùng khóa thông minh, các vấn đề có thể là hết pin
-                trong smartkey, lỗi cảm biến, nhiễu sóng, hoặc hỏng chip trong
-                chìa khóa. Một số trường hợp có thể do hệ thống điện trên xe bị
-                lỗi khiến không nhận diện được smartkey.
-              </p>
-
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Mất hoặc làm mất tất cả chìa khóa
-              </h3>
-              <p className="text-gray-700 mb-4">
-                Đây là tình huống khó xử lý nhất, đặc biệt với các xe đời mới sử
-                dụng chìa khóa có chip mã hóa. Việc làm lại chìa khóa không chỉ
-                đơn giản là cắt một chìa mới mà còn cần lập trình chip đúng mã
-                của xe.
+                Sau thời gian dài sử dụng, các ốc vít cố định khóa có thể bị
+                lỏng khiến toàn bộ bộ khóa rơi ra khỏi cánh tủ. Vấn đề này
+                thường gặp ở tủ gỗ hoặc tủ có kết cấu không chắc chắn.
               </p>
 
               <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
                 <span className="text-gray-400">
-                  [Hình ảnh: Minh họa các vấn đề khóa ô tô]
+                  [Hình ảnh: Minh họa các vấn đề khóa tủ]
                 </span>
               </div>
             </div>
@@ -176,106 +165,95 @@ export default function SuaKhoaOToPage() {
               </h2>
 
               <h3 className="text-xl font-semibold mb-3 mt-6 text-gray-900">
-                Xử lý khi chìa khóa không xoay được
+                Xử lý khóa tủ bị kẹt
               </h3>
               <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2">
                   <strong>Vật liệu cần chuẩn bị:</strong>
                 </p>
                 <ul className="list-disc pl-5 mb-4 text-gray-700">
-                  <li>Dầu bôi trơn khóa chuyên dụng (WD-40)</li>
-                  <li>Khăn sạch</li>
-                  <li>Bình xịt khí nén (nếu có)</li>
-                </ul>
-                <p className="text-gray-700 mb-2">
-                  <strong>Các bước thực hiện:</strong>
-                </p>
-                <ol className="list-decimal pl-5 text-gray-700">
-                  <li>
-                    Đảm bảo vô-lăng không ở chế độ khóa (thử xoay nhẹ vô-lăng
-                    khi xoay chìa)
-                  </li>
-                  <li>Xịt một lượng nhỏ dầu bôi trơn vào ổ khóa</li>
-                  <li>Đợi 1-2 phút để dầu thấm vào</li>
-                  <li>Nhẹ nhàng xoay chìa khóa qua lại vài lần</li>
-                  <li>Tránh dùng lực quá mạnh để tránh gãy chìa khóa</li>
-                </ol>
-              </div>
-
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Xử lý khi remote không hoạt động
-              </h3>
-              <div className="bg-yellow-50 p-4 rounded-lg mb-4">
-                <p className="text-gray-700 mb-2">
-                  <strong>Vật liệu cần chuẩn bị:</strong>
-                </p>
-                <ul className="list-disc pl-5 mb-4 text-gray-700">
-                  <li>
-                    Pin mới (CR2025, CR2032 hoặc theo loại pin của remote)
-                  </li>
+                  <li>Dầu bôi trơn khóa hoặc bột graphite</li>
                   <li>Tua vít nhỏ</li>
-                  <li>Cồn và bông tăm (để làm sạch mạch)</li>
+                  <li>Khăn lau sạch</li>
                 </ul>
                 <p className="text-gray-700 mb-2">
                   <strong>Các bước thực hiện:</strong>
                 </p>
                 <ol className="list-decimal pl-5 text-gray-700">
-                  <li>Tháo vỏ remote theo hướng dẫn sử dụng</li>
-                  <li>Thay pin mới, đảm bảo đúng cực (+/-)</li>
-                  <li>Kiểm tra và làm sạch các điểm tiếp xúc</li>
-                  <li>Kiểm tra độ nguyên vẹn của mạch</li>
-                  <li>Lắp lại và thử hoạt động</li>
+                  <li>Lau sạch bên ngoài ổ khóa</li>
+                  <li>Nhỏ một lượng nhỏ dầu bôi trơn vào ổ khóa</li>
+                  <li>Đưa chìa vào và xoay nhẹ nhàng qua lại nhiều lần</li>
+                  <li>Lau sạch dầu thừa bên ngoài</li>
+                  <li>Thử mở khóa bình thường</li>
                 </ol>
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Đồng bộ lại smartkey với xe
+                Khắc phục chìa khóa không rút ra được
               </h3>
               <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2">
-                  <strong>Lưu ý:</strong> Quy trình đồng bộ khác nhau tùy theo
-                  hãng xe và đời xe. Dưới đây là quy trình tổng quát:
+                  <strong>Lưu ý:</strong> Không dùng lực mạnh kẻo làm gãy chìa.
                 </p>
                 <ol className="list-decimal pl-5 text-gray-700">
-                  <li>Kiểm tra pin của smartkey, thay nếu cần</li>
-                  <li>Ngồi vào xe và đóng tất cả các cửa</li>
+                  <li>Xoay chìa khóa nhẹ nhàng qua lại tìm vị trí rút</li>
+                  <li>Nhỏ một ít dầu bôi trơn vào rãnh ổ khóa</li>
                   <li>
-                    Nhấn giữ nút khóa và mở khóa trên smartkey cùng lúc trong 5
-                    giây
+                    Dùng tua vít nhỏ ấn nhẹ cơ chế giữ chìa (nếu nhìn thấy)
                   </li>
                   <li>
-                    Đối với một số xe, bạn cần đặt smartkey vào vị trí đặc biệt
-                    (thường là ngăn đựng cốc hoặc gần nút bấm khởi động)
+                    Xoay tới đúng vị trí (thường là vị trí 12h) và rút chìa
                   </li>
-                  <li>
-                    Một số xe đời mới cần thực hiện quy trình đặc biệt theo
-                    hướng dẫn sử dụng
-                  </li>
+                  <li>Nếu không được, tránh cố gắng quá mức</li>
                 </ol>
                 <p className="text-gray-700 mt-2">
-                  <strong>Quan trọng:</strong> Nếu không chắc chắn, hãy tham
-                  khảo sách hướng dẫn sử dụng xe hoặc liên hệ đại lý.
+                  <strong>Quan trọng:</strong> Nếu làm theo các bước mà vẫn
+                  không thể rút chìa, hãy liên hệ thợ khóa chuyên nghiệp.
                 </p>
+              </div>
+
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">
+                Xử lý khóa tủ bị lỏng
+              </h3>
+              <div className="bg-yellow-50 p-4 rounded-lg mb-4">
+                <p className="text-gray-700 mb-2">
+                  <strong>Vật liệu cần chuẩn bị:</strong>
+                </p>
+                <ul className="list-disc pl-5 mb-4 text-gray-700">
+                  <li>Tua vít phù hợp với loại ốc của khóa</li>
+                  <li>Ốc vít mới (nếu ốc cũ bị hỏng)</li>
+                  <li>Keo dán gỗ (cho tủ gỗ)</li>
+                </ul>
+                <p className="text-gray-700 mb-2">
+                  <strong>Các bước thực hiện:</strong>
+                </p>
+                <ol className="list-decimal pl-5 text-gray-700">
+                  <li>Tháo khóa ra khỏi cánh tủ</li>
+                  <li>Kiểm tra các lỗ vít có bị mòn rộng không</li>
+                  <li>Với tủ gỗ, có thể bôi keo vào lỗ bị mòn và đợi khô</li>
+                  <li>Siết lại các ốc vít cẩn thận</li>
+                  <li>Kiểm tra độ chắc chắn của khóa sau khi lắp</li>
+                </ol>
               </div>
 
               <p className="text-gray-700 mt-6 italic">
                 <strong>Lưu ý:</strong> Những hướng dẫn trên chỉ phù hợp với các
-                vấn đề cơ bản. Với các tình huống phức tạp hơn như chìa khóa gãy
-                trong ổ khóa, làm lại chìa khi mất hoàn toàn, hoặc sửa hệ thống
-                khóa điện tử bị hỏng, bạn nên tìm đến thợ khóa chuyên nghiệp.
+                vấn đề cơ bản. Với các tình huống phức tạp hơn như chìa gãy
+                trong ổ, khóa số bị lỗi, hay khóa tủ an toàn gặp sự cố, bạn nên
+                tìm đến thợ sửa khóa chuyên nghiệp.
               </p>
             </div>
 
             {/* Section 3: Maintenance */}
             <div id="maintenance" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                3. Cách bảo dưỡng khóa ô tô định kỳ
+                3. Cách bảo dưỡng khóa tủ định kỳ
               </h2>
 
               <p className="text-gray-700 mb-4">
                 Bảo dưỡng định kỳ giúp kéo dài tuổi thọ và đảm bảo hoạt động
-                trơn tru của hệ thống khóa ô tô. Dưới đây là lịch trình bảo
-                dưỡng được khuyến nghị:
+                trơn tru của khóa tủ. Dưới đây là lịch trình bảo dưỡng được
+                khuyến nghị:
               </p>
 
               <div className="overflow-x-auto mb-6">
@@ -296,7 +274,7 @@ export default function SuaKhoaOToPage() {
                         3 tháng
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Kiểm tra pin remote/smartkey, thay nếu điện yếu
+                        Bôi trơn ổ khóa bằng dầu chuyên dụng hoặc bột graphite
                       </td>
                     </tr>
                     <tr>
@@ -304,7 +282,7 @@ export default function SuaKhoaOToPage() {
                         6 tháng
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Bôi trơn ổ khóa cửa và khóa điện với dầu chuyên dụng
+                        Kiểm tra và siết lại các ốc vít cố định
                       </td>
                     </tr>
                     <tr>
@@ -312,17 +290,17 @@ export default function SuaKhoaOToPage() {
                         12 tháng
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Kiểm tra toàn diện tình trạng các ổ khóa và hệ thống
-                        điện
+                        Kiểm tra toàn diện cơ chế khóa, làm sạch bụi bẩn bên
+                        trong
                       </td>
                     </tr>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        24 tháng
+                        Khi cần
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        Làm thêm chìa khóa dự phòng (nếu chưa có hoặc chỉ còn 1
-                        chìa)
+                        Thay pin cho khóa điện tử, kiểm tra khi thấy dấu hiệu
+                        bất thường
                       </td>
                     </tr>
                   </tbody>
@@ -330,29 +308,23 @@ export default function SuaKhoaOToPage() {
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Mẹo bảo quản chìa khóa ô tô:
+                Mẹo bảo quản khóa tủ lâu bền:
               </h3>
               <ul className="list-disc pl-5 mb-6 text-gray-700">
                 <li>
-                  Tránh để chìa khóa tiếp xúc với nước, đặc biệt là nước biển
+                  Không dùng dầu nhớt thông thường cho khóa, hãy dùng dầu khóa
+                  chuyên dụng
                 </li>
-                <li>
-                  Không để chìa khóa gần thiết bị điện tử mạnh có thể gây nhiễu
-                </li>
-                <li>Tránh va đập mạnh làm hỏng linh kiện điện tử bên trong</li>
-                <li>
-                  Luôn có ít nhất 2 chìa khóa dự phòng và cất giữ ở nơi an toàn
-                </li>
-                <li>
-                  Đối với smartkey, tránh để gần điện thoại, laptop vì có thể
-                  gây hao pin
-                </li>
-                <li>Không treo quá nhiều phụ kiện nặng vào chìa khóa</li>
+                <li>Không lắp khóa quá chặt vào cánh tủ gỗ, dễ gây nứt vỡ</li>
+                <li>Không để tủ ở nơi ẩm ướt, dễ gây gỉ sét ổ khóa</li>
+                <li>Luôn có chìa khóa dự phòng cất ở nơi an toàn</li>
+                <li>Không treo quá nhiều đồ nặng trên chìa khóa tủ</li>
+                <li>Với khóa số, thay đổi mã định kỳ và ghi nhớ cẩn thận</li>
               </ul>
 
               <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
                 <span className="text-gray-400">
-                  [Hình ảnh: Hướng dẫn bảo dưỡng khóa ô tô]
+                  [Hình ảnh: Hướng dẫn bảo dưỡng khóa tủ]
                 </span>
               </div>
             </div>
@@ -360,12 +332,12 @@ export default function SuaKhoaOToPage() {
             {/* Section 4: Professional Help */}
             <div id="professional-help" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                4. Khi nào nên gọi thợ khóa ô tô chuyên nghiệp
+                4. Khi nào nên gọi thợ sửa khóa chuyên nghiệp
               </h2>
 
               <p className="text-gray-700 mb-4">
                 Mặc dù có thể tự xử lý một số vấn đề đơn giản, nhưng nhiều
-                trường hợp cần đến sự trợ giúp của thợ khóa chuyên nghiệp:
+                trường hợp cần đến sự trợ giúp của thợ sửa khóa chuyên nghiệp:
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -374,15 +346,11 @@ export default function SuaKhoaOToPage() {
                     Tình huống khẩn cấp
                   </h3>
                   <ul className="list-disc pl-5 text-gray-700">
-                    <li>Chìa khóa bị gãy trong ổ khóa</li>
-                    <li>Mất tất cả chìa khóa của xe</li>
-                    <li>Bị khóa ngoài xe khi chìa còn bên trong</li>
-                    <li>
-                      Ổ khóa hoàn toàn không xoay được dù đã thử các biện pháp
-                    </li>
-                    <li>
-                      Hệ thống khóa bị hỏng sau khi có dấu hiệu bị cạy phá
-                    </li>
+                    <li>Chìa khóa gãy bên trong ổ khóa</li>
+                    <li>Mất hoặc quên mã số khóa tủ quan trọng</li>
+                    <li>Khóa bị hỏng hoàn toàn không mở được</li>
+                    <li>Cần mở tủ chứa tài liệu quan trọng ngay lập tức</li>
+                    <li>Khóa tủ an toàn (két sắt mini) gặp trục trặc</li>
                   </ul>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
@@ -390,29 +358,25 @@ export default function SuaKhoaOToPage() {
                     Vấn đề phức tạp
                   </h3>
                   <ul className="list-disc pl-5 text-gray-700">
-                    <li>
-                      Cần làm lại hoàn toàn chìa khóa có chip (immobilizer)
-                    </li>
-                    <li>Lập trình lại hệ thống khóa thông minh</li>
-                    <li>Thay thế toàn bộ ổ khóa điện</li>
-                    <li>Sửa chữa hệ thống điện liên quan đến khóa</li>
-                    <li>Cài đặt thêm hệ thống khóa chống trộm cao cấp</li>
+                    <li>Cần nâng cấp hệ thống khóa bảo mật cao hơn</li>
+                    <li>Khóa bị hỏng cần thay thế hoàn toàn</li>
+                    <li>Reset lại khóa điện tử hoặc khóa số</li>
+                    <li>Cần làm lại chìa khóa đã mất</li>
+                    <li>Lắp đặt cùng loại khóa cho nhiều tủ</li>
                   </ul>
                 </div>
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Tiêu chí chọn thợ khóa ô tô uy tín:
+                Tiêu chí chọn thợ sửa khóa tủ uy tín:
               </h3>
               <ul className="list-disc pl-5 mb-6 text-gray-700">
-                <li>Có chuyên môn và kinh nghiệm với đúng loại xe của bạn</li>
-                <li>
-                  Sở hữu thiết bị chuyên dụng để lập trình chìa khóa có chip
-                </li>
+                <li>Có chuyên môn và kinh nghiệm với đa dạng loại khóa tủ</li>
+                <li>Có đầy đủ dụng cụ chuyên nghiệp</li>
                 <li>Cung cấp bảo hành cho dịch vụ</li>
                 <li>Có đánh giá tốt từ khách hàng trước đó</li>
-                <li>Minh bạch về chi phí trước khi thực hiện công việc</li>
-                <li>Có dịch vụ hỗ trợ khẩn cấp 24/7</li>
+                <li>Minh bạch về chi phí trước khi thực hiện</li>
+                <li>Có dịch vụ hỗ trợ khẩn cấp khi cần</li>
               </ul>
 
               <div className="p-4 bg-yellow-50 rounded-lg mb-6">
@@ -420,21 +384,18 @@ export default function SuaKhoaOToPage() {
                   <strong className="text-yellow-700">
                     Chi phí tham khảo:
                   </strong>{" "}
-                  Giá dịch vụ sửa khóa ô tô dao động rất lớn tùy theo loại xe và
-                  vấn đề cụ thể:
+                  Giá dịch vụ sửa khóa tủ dao động tùy theo loại khóa:
                 </p>
                 <ul className="list-disc pl-5 text-gray-700">
-                  <li>Mở cửa xe khi bị khóa ngoài: 300.000đ - 700.000đ</li>
-                  <li>Làm chìa khóa cơ thông thường: 200.000đ - 500.000đ</li>
-                  <li>Làm chìa khóa có chip đơn giản: 600.000đ - 1.500.000đ</li>
-                  <li>
-                    Làm lại smartkey khi mất hoàn toàn: 1.500.000đ - 5.000.000đ
-                  </li>
-                  <li>Thay thế ổ khóa điện: 1.000.000đ - 3.000.000đ</li>
+                  <li>Mở khóa tủ đơn giản: 100.000đ - 300.000đ</li>
+                  <li>Sửa chữa khóa tủ cơ học: 150.000đ - 400.000đ</li>
+                  <li>Làm lại chìa khóa tủ: 100.000đ - 300.000đ</li>
+                  <li>Thay thế khóa tủ mới: 200.000đ - 600.000đ</li>
+                  <li>Sửa khóa tủ an toàn, khóa số: 300.000đ - 1.000.000đ</li>
                 </ul>
                 <p className="text-gray-700 mt-2 italic">
-                  Giá có thể cao hơn đối với xe hạng sang hoặc những trường hợp
-                  đặc biệt phức tạp.
+                  Giá có thể cao hơn đối với khóa tủ cao cấp, khóa điện tử hoặc
+                  những trường hợp đặc biệt phức tạp.
                 </p>
               </div>
             </div>
@@ -442,11 +403,11 @@ export default function SuaKhoaOToPage() {
             {/* Section 5: Lock Types */}
             <div id="lock-types" className="mb-12">
               <h2 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 pb-2 text-gray-700 hover:text-yellow-600 transition-colors duration-300">
-                5. Các loại khóa ô tô hiện đại và đặc điểm
+                5. Các loại khóa tủ phổ biến
               </h2>
 
               <p className="text-gray-700 mb-6">
-                Hiểu rõ về loại khóa trên xe giúp bạn có phương án bảo dưỡng và
+                Hiểu rõ về loại khóa của tủ giúp bạn có phương án bảo dưỡng và
                 xử lý sự cố phù hợp:
               </p>
 
@@ -468,124 +429,92 @@ export default function SuaKhoaOToPage() {
                   <tbody>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Khóa cơ truyền thống
+                        Khóa chìa cơ bản
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Sử dụng chìa cơ đơn giản</li>
-                          <li>Không có chip điện tử</li>
-                          <li>Phổ biến trên xe đời cũ</li>
+                          <li>Cấu tạo đơn giản</li>
+                          <li>Thường dùng cho tủ gỗ, tủ quần áo</li>
+                          <li>Chìa khóa ngắn, nhỏ</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        <span className="text-green-600">+</span> Dễ làm chìa
-                        thay thế
+                        <span className="text-green-600">+</span> Giá thành rẻ
                         <br />
-                        <span className="text-green-600">+</span> Chi phí thấp
+                        <span className="text-green-600">+</span> Dễ thay thế
                         <br />
-                        <span className="text-red-600">-</span> Bảo mật thấp
-                        <br />
-                        <span className="text-red-600">-</span> Dễ bị kẹt theo
-                        thời gian
+                        <span className="text-red-600">-</span> Dễ bị hư hỏng
+                        theo thời gian
                       </td>
                     </tr>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Khóa có Remote
+                        Khóa tủ đồng tâm
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Có remote điều khiển từ xa</li>
-                          <li>Chìa vẫn dùng để khởi động</li>
-                          <li>Phổ biến từ 2000-2015</li>
+                          <li>Thiết kế hình tròn</li>
+                          <li>Dùng cho tủ văn phòng, tủ hồ sơ</li>
+                          <li>Cơ chế chốt xoay</li>
+                        </ul>
+                      </td>
+                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
+                        <span className="text-green-600">+</span> Độ bền cao
+                        <br />
+                        <span className="text-green-600">+</span> Thiết kế đẹp
+                        <br />
+                        <span className="text-red-600">-</span> Khó sửa chữa
+                        <br />
+                        <span className="text-red-600">-</span> Chi phí thay thế
+                        cao
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
+                        Khóa số cơ học
+                      </td>
+                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
+                        <ul className="list-disc pl-5 space-y-1 text-sm">
+                          <li>Sử dụng mã số để mở</li>
+                          <li>Không cần chìa khóa</li>
+                          <li>Phổ biến ở tủ đựng đồ công cộng</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <span className="text-green-600">+</span> Tiện lợi khi
-                        đóng/mở cửa
+                        không cần mang chìa
                         <br />
-                        <span className="text-green-600">+</span> Bảo mật khá
-                        tốt
+                        <span className="text-green-600">+</span> Nhiều người có
+                        thể sử dụng
                         <br />
-                        <span className="text-red-600">-</span> Phụ thuộc pin
-                        remote
+                        <span className="text-red-600">-</span> Dễ quên mã số
                         <br />
-                        <span className="text-red-600">-</span> Remote dễ hỏng
-                        khi va đập
+                        <span className="text-red-600">-</span> Cơ chế dễ hỏng
+                        nếu dùng mạnh tay
                       </td>
                     </tr>
                     <tr>
                       <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Khóa có Immobilizer
+                        Khóa điện tử
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Chìa có chip giao tiếp với ECU</li>
-                          <li>Xe không khởi động nếu không có chìa đúng</li>
-                          <li>Phổ biến từ 2005 đến nay</li>
+                          <li>Sử dụng pin hoặc điện</li>
+                          <li>Mở bằng mã số, thẻ từ hoặc vân tay</li>
+                          <li>Thường dùng cho tủ có giá trị cao</li>
                         </ul>
                       </td>
                       <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
                         <span className="text-green-600">+</span> Bảo mật cao
                         <br />
-                        <span className="text-green-600">+</span> Chống trộm
-                        hiệu quả
+                        <span className="text-green-600">+</span> Tiện lợi không
+                        cần chìa
                         <br />
-                        <span className="text-red-600">-</span> Khó và đắt khi
-                        làm lại chìa
+                        <span className="text-red-600">-</span> Phụ thuộc
+                        pin/điện
                         <br />
-                        <span className="text-red-600">-</span> Có thể gặp lỗi
-                        khi chip hỏng
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Smartkey
-                      </td>
-                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Không cần cắm chìa để khởi động</li>
-                          <li>Chỉ cần mang theo bên người</li>
-                          <li>Phổ biến trên xe đời mới, cao cấp</li>
-                        </ul>
-                      </td>
-                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        <span className="text-green-600">+</span> Cực kỳ tiện
-                        lợi
-                        <br />
-                        <span className="text-green-600">+</span> Bảo mật cao
-                        nhất
-                        <br />
-                        <span className="text-red-600">-</span> Chi phí thay thế
-                        rất cao
-                        <br />
-                        <span className="text-red-600">-</span> Phức tạp khi gặp
-                        sự cố
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="py-2 px-4 border-b border-gray-200 font-medium text-gray-800">
-                        Khóa điện thoại (Digital Key)
-                      </td>
-                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Sử dụng điện thoại làm chìa khóa</li>
-                          <li>Kết nối qua yellowtooth/NFC</li>
-                          <li>Mới xuất hiện trên xe sang đời mới nhất</li>
-                        </ul>
-                      </td>
-                      <td className="py-2 px-4 border-b border-gray-200 text-gray-600">
-                        <span className="text-green-600">+</span> Cực kỳ hiện
-                        đại và tiện lợi
-                        <br />
-                        <span className="text-green-600">+</span> Chia sẻ quyền
-                        truy cập dễ dàng
-                        <br />
-                        <span className="text-red-600">-</span> Phụ thuộc pin
-                        điện thoại
-                        <br />
-                        <span className="text-red-600">-</span> Rủi ro bảo mật
-                        cao nếu bị hack
+                        <span className="text-red-600">-</span> Chi phí sửa chữa
+                        đắt
                       </td>
                     </tr>
                   </tbody>
@@ -593,26 +522,21 @@ export default function SuaKhoaOToPage() {
               </div>
 
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Lời khuyên khi lựa chọn hệ thống khóa cho ô tô:
+                Lời khuyên khi lựa chọn khóa tủ:
               </h3>
               <ul className="list-disc pl-5 mb-6 text-gray-700">
                 <li>
-                  Xe đời cũ: Cân nhắc nâng cấp lên hệ thống có remote và
-                  immobilizer để tăng bảo mật
+                  Tủ đựng đồ quý giá: Nên chọn khóa điện tử hoặc khóa cơ chất
+                  lượng cao
                 </li>
                 <li>
-                  Luôn làm ít nhất 2-3 chìa khóa dự phòng ngay khi mua xe mới
+                  Tủ văn phòng: Khóa đồng tâm hoặc khóa số là lựa chọn tốt
                 </li>
                 <li>
-                  Đối với xe sử dụng smartkey, nên có ít nhất một chìa dự phòng
+                  Tủ quần áo gia đình: Khóa chìa cơ bản đủ đáp ứng nhu cầu
                 </li>
-                <li>
-                  Cân nhắc lắp thêm hệ thống chống trộm bổ sung cho xe đắt tiền
-                </li>
-                <li>
-                  Lưu lại mã số khóa (key code) của xe để dễ dàng làm chìa khi
-                  cần
-                </li>
+                <li>Nơi ẩm ướt: Chọn khóa inox hoặc chống gỉ</li>
+                <li>Lưu ý độ dày và chất liệu cánh tủ khi chọn khóa</li>
               </ul>
             </div>
 
@@ -623,30 +547,31 @@ export default function SuaKhoaOToPage() {
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Hệ thống khóa ô tô ngày càng phát triển với công nghệ hiện đại,
-                mang lại sự tiện lợi và an toàn cho người sử dụng. Tuy nhiên,
-                càng hiện đại thì việc sửa chữa và thay thế càng trở nên phức
-                tạp và tốn kém.
+                Khóa tủ đóng vai trò quan trọng trong việc bảo vệ tài sản và tài
+                liệu cá nhân. Với nhiều loại khóa tủ đa dạng trên thị trường,
+                việc lựa chọn, bảo dưỡng và sửa chữa đúng cách sẽ giúp kéo dài
+                tuổi thọ và đảm bảo tính an toàn cho tủ của bạn.
               </p>
               <p className="text-gray-700 mb-4">
-                Việc hiểu rõ về loại khóa trên xe của bạn, thực hiện bảo dưỡng
-                định kỳ và biết cách xử lý các vấn đề cơ bản sẽ giúp bạn tiết
-                kiệm thời gian, chi phí và tránh những tình huống khó xử. Đặc
-                biệt, việc luôn có chìa khóa dự phòng là biện pháp đơn giản
-                nhưng hiệu quả nhất để phòng tránh rủi ro.
+                Bảo dưỡng định kỳ là biện pháp hiệu quả để phòng ngừa các sự cố
+                khóa tủ. Tuy nhiên, khi gặp vấn đề phức tạp như chìa gãy trong
+                ổ, quên mã số khóa điện tử, hay cơ chế khóa bị hỏng nặng, hãy
+                tìm đến dịch vụ sửa khóa tủ chuyên nghiệp để tránh làm hỏng
+                thêm.
               </p>
               <p className="text-gray-700 mb-4">
-                Đối với những vấn đề phức tạp, đừng ngần ngại tìm đến sự trợ
-                giúp của thợ khóa ô tô chuyên nghiệp để tránh làm hỏng thêm hệ
-                thống khóa của xe.
+                Nhiều người thường chủ quan với khóa tủ, nhưng một hệ thống khóa
+                chất lượng và hoạt động tốt không chỉ mang lại sự an tâm mà còn
+                góp phần bảo vệ những tài sản giá trị và thông tin quan trọng
+                của bạn.
               </p>
 
               <div className="p-4 bg-yellow-50 rounded-lg mt-6">
                 <p className="text-gray-700 italic">
                   <strong>Lưu ý:</strong> Thông tin trong bài viết này chỉ mang
-                  tính chất tham khảo. Đối với các vấn đề cụ thể về khóa ô tô,
-                  hãy luôn tham khảo sách hướng dẫn sử dụng xe hoặc liên hệ với
-                  đại lý, thợ khóa chuyên nghiệp để được tư vấn phù hợp.
+                  tính chất tham khảo. Đối với các vấn đề cụ thể về khóa tủ cao
+                  cấp, khóa tủ an toàn hay hệ thống khóa đặc biệt, hãy luôn tham
+                  khảo ý kiến của thợ khóa chuyên nghiệp để được tư vấn phù hợp.
                 </p>
               </div>
             </div>
@@ -661,20 +586,19 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Chi phí làm lại chìa khóa ô tô khi mất hoàn toàn là bao
-                      nhiêu?
+                      Chi phí thay ổ khóa tủ mới là bao nhiêu?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Chi phí làm lại chìa khóa ô tô khi mất hoàn toàn phụ thuộc
-                      vào loại xe và loại khóa. Đối với xe đời cũ dùng chìa cơ,
-                      chi phí khoảng 200.000đ - 500.000đ. Với xe có chìa khóa có
-                      chip, chi phí từ 1.000.000đ - 3.000.000đ. Xe dùng
-                      smartkey, chi phí có thể lên đến 2.000.000đ - 6.000.000đ
-                      hoặc cao hơn đối với xe sang. Bạn nên liên hệ đại lý hoặc
-                      thợ khóa chuyên nghiệp để được báo giá chính xác.
+                      Chi phí thay ổ khóa tủ mới phụ thuộc vào loại tủ và chất
+                      lượng khóa. Khóa tủ cơ bản có giá từ 100.000đ đến
+                      300.000đ. Khóa tủ đồng tâm chất lượng tốt giá từ 300.000đ
+                      đến 600.000đ. Khóa tủ số cơ học từ 400.000đ đến 800.000đ.
+                      Khóa điện tử cao cấp từ 1.000.000đ trở lên. Chi phí này
+                      chưa bao gồm công thay lắp, thường từ 100.000đ đến
+                      200.000đ tùy độ phức tạp.
                     </p>
                   </div>
                 </div>
@@ -682,20 +606,19 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Làm thế nào khi bị khóa ngoài xe với chìa bên trong?
+                      Tôi quên mã số khóa tủ, làm cách nào để mở?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Khi bị khóa ngoài xe với chìa bên trong, tuyệt đối không
-                      nên cố tự mở cửa bằng các vật nhọn sẽ làm hỏng gioăng cửa
-                      và hệ thống khóa. Cách xử lý tốt nhất là: (1) Gọi thợ khóa
-                      ô tô chuyên nghiệp - đây là phương án an toàn nhất, (2)
-                      Liên hệ dịch vụ cứu hộ của hãng xe nếu xe đang trong thời
-                      gian bảo hành, (3) Sử dụng ứng dụng điều khiển từ xa nếu
-                      xe hỗ trợ. Chi phí mở cửa xe khi bị khóa ngoài thường từ
-                      300.000đ - 800.000đ.
+                      Khi quên mã số khóa tủ, trước tiên hãy kiểm tra xem có mã
+                      mặc định hoặc mã master không (thường được ghi trong sổ
+                      hướng dẫn). Với khóa số cơ học, bạn có thể thử một số cách
+                      mở như xoay núm lần lượt để tìm số đúng. Tuy nhiên, giải
+                      pháp an toàn nhất là gọi thợ khóa chuyên nghiệp. Họ có kỹ
+                      thuật và công cụ để mở khóa mà không làm hỏng tủ. Sau khi
+                      mở được, nhớ ghi lại mã số mới ở nơi an toàn.
                     </p>
                   </div>
                 </div>
@@ -703,21 +626,19 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Smartkey không hoạt động dù đã thay pin phải làm sao?
+                      Chìa khóa tủ bị gãy trong ổ phải làm sao?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Khi smartkey không hoạt động dù đã thay pin, hãy thử các
-                      cách sau: (1) Kiểm tra đúng loại pin và lắp đúng cực, (2)
-                      Làm sạch các điểm tiếp xúc bên trong smartkey, (3) Thử đặt
-                      smartkey vào vị trí đặc biệt trên xe (thường là hộc cốc)
-                      để khởi động khẩn cấp, (4) Thử quy trình đồng bộ lại
-                      smartkey theo hướng dẫn của xe, (5) Kiểm tra xem có bị
-                      nhiễu tín hiệu do gần thiết bị điện tử khác không. Nếu vẫn
-                      không được, có thể smartkey đã bị hỏng mạch điện bên trong
-                      và cần được thay thế hoặc sửa chữa bởi chuyên gia.
+                      Khi chìa khóa bị gãy trong ổ, đầu tiên đừng cố gắng dùng
+                      vật nhọn móc ra vì có thể đẩy mảnh chìa sâu hơn. Nếu đầu
+                      chìa còn thò ra ngoài, bạn có thể dùng kìm nhỏ kẹp nhẹ
+                      nhàng. Nếu chìa gãy sâu trong ổ, hãy liên hệ thợ khóa
+                      chuyên nghiệp ngay. Họ có dụng cụ chuyên dụng để lấy mảnh
+                      chìa mà không làm hỏng cơ cấu bên trong. Sau khi lấy được
+                      mảnh chìa, nên kiểm tra lại ổ khóa và làm chìa mới.
                     </p>
                   </div>
                 </div>
@@ -725,21 +646,42 @@ export default function SuaKhoaOToPage() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
                     <span className="font-semibold text-gray-900">
-                      Có nên lắp khóa chống trộm bổ sung cho ô tô?
+                      Khóa tủ điện tử hết pin có mở được không?
                     </span>
                     <span>+</span>
                   </button>
                   <div className="p-4 border-t border-gray-200 bg-white">
                     <p className="text-gray-700">
-                      Việc lắp khóa chống trộm bổ sung rất hữu ích cho những xe
-                      đời cũ có hệ thống bảo mật thấp hoặc xe đắt tiền thường là
-                      mục tiêu của trộm cắp. Các loại khóa chống trộm phổ biến
-                      bao gồm: khóa cần số, khóa vô-lăng, khóa chân phanh, hệ
-                      thống định vị GPS, hệ thống cắt điện thông minh. Tuy
-                      nhiên, cần lắp đặt tại cơ sở uy tín để đảm bảo không ảnh
-                      hưởng đến hệ thống điện và vận hành của xe. Chi phí lắp
-                      đặt từ 500.000đ đến vài triệu đồng tùy loại, nhưng đây là
-                      khoản đầu tư xứng đáng để bảo vệ tài sản giá trị của bạn.
+                      Hầu hết các khóa tủ điện tử hiện đại đều có cơ chế dự
+                      phòng khi hết pin. Một số loại có cổng sạc khẩn cấp bên
+                      ngoài, bạn có thể dùng pin 9V áp vào để cung cấp điện tạm
+                      thời và mở khóa. Một số loại khác có chìa khóa cơ học dự
+                      phòng, thường được giấu dưới logo hoặc nắp đậy. Kiểm tra
+                      sách hướng dẫn để biết vị trí chính xác. Nếu không có cách
+                      nào, bạn cần gọi thợ khóa chuyên nghiệp. Để phòng ngừa,
+                      hãy thay pin ngay khi thấy tín hiệu pin yếu.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                  <button className="flex justify-between items-center w-full p-4 text-left bg-yellow-50 hover:bg-yellow-100">
+                    <span className="font-semibold text-gray-900">
+                      Làm thế nào để bảo vệ khóa tủ khỏi bị gỉ sét?
+                    </span>
+                    <span>+</span>
+                  </button>
+                  <div className="p-4 border-t border-gray-200 bg-white">
+                    <p className="text-gray-700">
+                      Để bảo vệ khóa tủ khỏi gỉ sét, hãy thực hiện các biện pháp
+                      sau: (1) Bôi trơn ổ khóa định kỳ 3-6 tháng một lần bằng
+                      dầu khóa chuyên dụng hoặc bột graphite, (2) Tránh để tủ ở
+                      nơi ẩm ướt, (3) Lau khô tay trước khi sử dụng khóa, (4)
+                      Đối với khóa tủ ngoài trời, sử dụng bao bọc chống nước,
+                      (5) Chọn khóa làm từ vật liệu không gỉ như inox hoặc đồng
+                      thau, (6) Dùng các sản phẩm chống gỉ chuyên dụng phun vào
+                      ổ khóa. Nếu khóa đã bắt đầu gỉ, hãy xử lý sớm trước khi nó
+                      lan rộng và làm kẹt cơ chế khóa.
                     </p>
                   </div>
                 </div>
@@ -783,13 +725,13 @@ export default function SuaKhoaOToPage() {
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                    Sửa Khóa Két Sắt
+                    Sửa Khóa Ô Tô
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    Dịch vụ mở, sửa và thay thế khóa két sắt các loại
+                    Dịch vụ sửa, làm chìa khóa xe ô tô các loại
                   </p>
                   <a
-                    href="/sua-khoa-ket-sat"
+                    href="/khoa-o-to"
                     className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm

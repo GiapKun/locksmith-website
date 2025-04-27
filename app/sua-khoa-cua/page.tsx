@@ -723,7 +723,7 @@ export default function SuaKhoaCuaPage() {
                     Dịch vụ sửa, làm chìa khóa xe máy các loại
                   </p>
                   <a
-                    href="//khoa-xe-may"
+                    href="/khoa-xe-may"
                     className="text-yellow-600 hover:text-yellow-800 font-medium"
                   >
                     Tìm hiểu thêm
