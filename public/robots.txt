@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://suakhoathanhhoa.com
+
+# Sitemaps
+Sitemap: https://suakhoathanhhoa.com/sitemap.xml
