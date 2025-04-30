@@ -36,10 +36,13 @@ export default function SuaKhoaTuPage() {
           <div className="max-w-3xl mx-auto">
             {/* Introduction */}
             <div className="mb-10">
-              <div className="h-64 md:h-80 relative mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Các loại khóa tủ phổ biến]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/khoatu1.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
               <p className="text-lg text-gray-700 mb-4">
                 Khóa tủ đóng vai trò quan trọng trong việc bảo vệ tài sản, tài
@@ -151,10 +154,13 @@ export default function SuaKhoaTuPage() {
                 thường gặp ở tủ gỗ hoặc tủ có kết cấu không chắc chắn.
               </p>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Minh họa các vấn đề khóa tủ]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/khoatu2.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 
@@ -322,10 +328,13 @@ export default function SuaKhoaTuPage() {
                 <li>Với khóa số, thay đổi mã định kỳ và ghi nhớ cẩn thận</li>
               </ul>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Hướng dẫn bảo dưỡng khóa tủ]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/khoatu3.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 

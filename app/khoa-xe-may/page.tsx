@@ -35,10 +35,13 @@ export default function SuaKhoaXeMayPage() {
           <div className="max-w-3xl mx-auto">
             {/* Introduction */}
             <div className="mb-10">
-              <div className="h-64 md:h-80 relative mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Các loại khóa xe máy]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/motorbike1.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
               <p className="text-lg text-gray-700 mb-4">
                 Khóa xe máy là bộ phận quan trọng giúp bảo vệ phương tiện của
@@ -145,10 +148,13 @@ export default function SuaKhoaXeMayPage() {
                 gặp lỗi về bo mạch, hết pin remote hoặc hỏng cảm biến.
               </p>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Minh họa các vấn đề khóa xe máy]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/motorbike2.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 
@@ -310,10 +316,13 @@ export default function SuaKhoaXeMayPage() {
                 <li>Ghi nhớ mã số chìa khóa (nếu có) để làm lại khi cần</li>
               </ul>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Hướng dẫn bảo dưỡng khóa xe máy]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/motorbike3.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 

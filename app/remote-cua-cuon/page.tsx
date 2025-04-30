@@ -36,10 +36,13 @@ export default function SuaRemoteCuaCuonPage() {
           <div className="max-w-3xl mx-auto">
             {/* Introduction */}
             <div className="mb-10">
-              <div className="h-64 md:h-80 relative mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Các loại remote cửa cuốn]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/cuacuon1.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
               <p className="text-lg text-gray-700 mb-4">
                 Remote cửa cuốn đóng vai trò quan trọng trong việc vận hành và
@@ -148,10 +151,13 @@ export default function SuaRemoteCuaCuonPage() {
                 sửa chữa kỹ lưỡng.
               </p>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Minh họa các vấn đề remote cửa cuốn]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/cuacuon2.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 
@@ -314,10 +320,13 @@ export default function SuaRemoteCuaCuonPage() {
                 <li>Không treo quá nhiều phụ kiện nặng vào remote</li>
               </ul>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Hướng dẫn bảo dưỡng remote cửa cuốn]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/cuacuon3.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 
