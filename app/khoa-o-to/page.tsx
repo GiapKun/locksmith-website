@@ -36,10 +36,13 @@ export default function SuaKhoaOToPage() {
           <div className="max-w-3xl mx-auto">
             {/* Introduction */}
             <div className="mb-10">
-              <div className="h-64 md:h-80 relative mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Các loại khóa ô tô]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/oto1.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
               <p className="text-lg text-gray-700 mb-4">
                 Khóa ô tô là một trong những hệ thống bảo mật quan trọng nhất
@@ -162,10 +165,13 @@ export default function SuaKhoaOToPage() {
                 của xe.
               </p>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Minh họa các vấn đề khóa ô tô]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/oto2.png"
+                  alt="Các vấn đề thường gặp với khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 
@@ -350,10 +356,13 @@ export default function SuaKhoaOToPage() {
                 <li>Không treo quá nhiều phụ kiện nặng vào chìa khóa</li>
               </ul>
 
-              <div className="h-48 relative mt-6 mb-6 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">
-                  [Hình ảnh: Hướng dẫn bảo dưỡng khóa ô tô]
-                </span>
+              <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/oto3.png"
+                  alt="Các loại khóa ô tô"
+                  className="w-full h-full object-cover md:object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
 
