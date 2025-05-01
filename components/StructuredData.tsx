@@ -31,7 +31,7 @@ const StructuredData = () => {
 
   const localBusinessJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Locksmith", // chuyên ngành sửa khóa
+    "@type": "Locksmith",
     name: "Sửa Khóa Thanh Hóa",
     image: "https://suakhoathanhhoa.com/images/logo.png",
     telephone: "+84933270890",
@@ -44,12 +44,24 @@ const StructuredData = () => {
       postalCode: "40000",
       addressCountry: "VN",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 19.8007,
+      longitude: 105.7767,
+    },
     url: "https://suakhoathanhhoa.com",
-    openingHours: [
-      "Mo-Su 00:00-23:59", // hoạt động 24/7
-    ],
+    openingHours: ["Mo-Su 00:00-23:59"],
     priceRange: "₫₫",
-    servesCuisine: "Dịch vụ tận nơi",
+    description:
+      "Dịch vụ sửa khóa tận nơi tại Thanh Hóa, có mặt 15 phút, hỗ trợ 24/7.",
+    areaServed: {
+      "@type": "Place",
+      name: "Thanh Hóa",
+    },
+    sameAs: [
+      "https://facebook.com/suakhoathanhhoa",
+      "https://zalo.me/0933270890",
+    ],
   };
 
   return (
