@@ -34,6 +34,7 @@ export default function Footer() {
               <Link
                 href="tel:0933270890"
                 className="text-xl font-bold text-white hover:text-yellow-300 transition-colors"
+                aria-label="Gọi đến số 0933270890"
               >
                 0933.270.890
               </Link>
@@ -48,6 +49,7 @@ export default function Footer() {
               <Link
                 href="mailto:contact@suakhoathanhhoa.com"
                 className="text-white hover:text-yellow-300 transition-colors break-all"
+                aria-label="Gửi email đến suakhoathanhhoa@gmail.com"
               >
                 suakhoathanhhoa@gmail.com
               </Link>
@@ -373,6 +375,8 @@ export default function Footer() {
               width={28}
               height={28}
               className="object-contain"
+              priority
+              loading="eager"
             />
           </div>
           {/* Animated ring effect (giống nút gọi điện) */}
