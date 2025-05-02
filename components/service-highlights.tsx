@@ -78,6 +78,7 @@ export default function ServiceHighlights() {
               <div className="mb-8 md:mb-0 text-center md:text-left">
                 <a
                   href="tel:+84912345678"
+                  aria-label="Gọi đến số điện thoại 0933.270.890"
                   className="inline-block bg-white text-yellow-600 font-bold py-3 px-6 rounded-full transition-all hover:bg-yellow-600 hover:text-white hover:shadow-md transform hover:-translate-y-1"
                 >
                   Gọi ngay: 0933.270.890
@@ -293,6 +294,7 @@ export default function ServiceHighlights() {
                     alt={service.title}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">

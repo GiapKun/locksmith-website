@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "Sửa Khóa Cửa Nhanh Chóng",
   description:
@@ -35,11 +37,12 @@ export default function SuaKhoaCuaPage() {
             {/* Introduction */}
             <div className="mb-10">
               <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
-                <img
+                <Image
                   src="/images/door1.png"
                   alt="Các loại khóa ô tô"
-                  className="w-full h-full object-cover md:object-contain"
-                  loading="lazy"
+                  fill
+                  className="object-cover md:object-contain"
+                  priority
                 />
               </div>
               <p className="text-lg text-gray-700 mb-4">
@@ -152,11 +155,12 @@ export default function SuaKhoaCuaPage() {
               </p>
 
               <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
-                <img
+                <Image
                   src="/images/door2.png"
                   alt="Các loại khóa ô tô"
-                  className="w-full h-full object-cover md:object-contain"
-                  loading="lazy"
+                  fill
+                  className="object-cover md:object-contain"
+                  priority
                 />
               </div>
             </div>
@@ -336,11 +340,12 @@ export default function SuaKhoaCuaPage() {
               </ul>
 
               <div className="min-h-[16rem] aspect-[3/2] w-full max-w-4xl mx-auto relative mb-6 bg-gray-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
-                <img
+                <Image
                   src="/images/door3.png"
                   alt="Các loại khóa ô tô"
-                  className="w-full h-full object-cover md:object-contain"
-                  loading="lazy"
+                  fill
+                  className="object-cover md:object-contain"
+                  priority
                 />
               </div>
             </div>

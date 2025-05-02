@@ -63,6 +63,7 @@ export default function Hero() {
           fill
           className="object-cover"
           priority
+          loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent opacity-90" />
       </div>
@@ -83,6 +84,7 @@ export default function Hero() {
                 fill
                 className="object-cover"
                 priority
+                loading="eager"
               />
               <div className="absolute inset-0 flex items-end p-6 bg-gradient-to-t from-black/80 via-black/50 to-transparent">
                 <div>

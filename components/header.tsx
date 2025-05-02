@@ -17,6 +17,8 @@ export default function Header() {
                 width={64}
                 height={64}
                 className="rounded-full border-2 border-yellow-500 shadow-md"
+                priority
+                loading="eager"
               />
             </div>
             <div>
@@ -85,7 +87,13 @@ export default function Header() {
             </div>
 
             {/* Nút CTA */}
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">
+            <button
+              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
+              aria-label="Gọi đến số 0933.270.890"
+              onClick={() => {
+                window.location.href = "tel:0933270890";
+              }}
+            >
               Gọi Ngay
             </button>
           </div>

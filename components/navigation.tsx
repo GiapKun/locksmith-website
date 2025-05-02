@@ -26,6 +26,13 @@ export default function Navigation() {
     return () => window.removeEventListener("resize", handleResize);
   }, [isMenuOpen]);
 
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMenuOpen]);
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -41,12 +48,17 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="bg-gradient-to-r from-yellow-500 to-yellow-400 md:sticky md:top-0 z-40 shadow-md">
+    <nav
+      role="navigation"
+      aria-label="Thanh điều hướng chính"
+      className="bg-gradient-to-r from-yellow-500 to-yellow-400 md:sticky md:top-0 z-40 shadow-md"
+    >
       <div className="container mx-auto px-4">
         {/* Mobile menu button & enhanced phone button */}
         <div className="flex md:hidden justify-between items-center py-3">
           <Link
             href="tel:0933270890"
+            aria-label="Gọi đến số 0933.270.890"
             className={`flex items-center space-x-2 bg-gradient-to-r ${
               isRinging ? "from-red-600 to-red-500" : "from-red-500 to-red-400"
             } text-white px-3 py-2 rounded-lg shadow-md transform transition-all duration-300 ${
