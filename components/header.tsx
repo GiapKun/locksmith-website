@@ -88,7 +88,7 @@ export default function Header() {
 
             {/* Nút CTA */}
             <button
-              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
+              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg cursor-pointer"
               aria-label="Gọi đến số 0933.270.890"
               onClick={() => {
                 window.location.href = "tel:0933270890";
