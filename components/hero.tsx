@@ -13,15 +13,15 @@ export default function Hero() {
       description: "Sửa chữa, làm mới khóa ô tô mọi hãng",
     },
     {
-      name: "KHÓA NHÀ",
+      name: "KHÓA CỬA",
       image: "/images/home_key.jpg",
-      href: "/khoa-nha",
+      href: "/sua-khoa-cua",
       description: "Thay thế, lắp đặt khóa cửa chuyên nghiệp",
     },
     {
       name: "KHÓA KÉT",
       image: "/images/safe_lock.jpg",
-      href: "/khoa-ket",
+      href: "/sua-khoa-ket",
       description: "Mở khóa két sắt an toàn, bảo mật",
     },
     {
